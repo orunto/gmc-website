@@ -1,0 +1,33 @@
+.ForMen {
+    margin: 0;
+    width: 100vw;
+    height: 805px;
+    background: linear-gradient(73.65deg, #18191F 0%, rgba(24, 25, 31, 0.54026) 46.73%, rgba(24, 25, 31, 0.03) 98.61%), url('../images/Welcome Background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ForMen h1 {
+    position: absolute;
+    top: 282px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.ForMen h4 {
+    position: absolute;
+    top: 388px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+
+}
+
+.ForMen .Button {
+    position: absolute;
+    top: 470px;
+    left: calc(50% - 87.5px);
+}
