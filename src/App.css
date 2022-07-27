@@ -48,6 +48,15 @@ h4 {
   line-height: 32px;
 }
 
+h5 {
+  margin: 0;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+}
+
 span {
   margin: 0;
   font-family: 'Sora';
@@ -61,7 +70,7 @@ p {
   margin: 0;
   font-family: 'Sora';
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 300;
+  font-size: 18px;
   line-height: 32px;
 }

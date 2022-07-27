@@ -8,3 +8,24 @@
     color: #fff;
     cursor: pointer;
 } 
+
+.Bubbles {
+    width: 255px;
+    height: 224px;
+}
+
+.Bubbles svg {
+    margin: 0 87.5px;
+}
+
+.Bubbles h5 {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.Bubbles p{
+    margin-top: 4px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}

@@ -31,3 +31,92 @@
     top: 470px;
     left: calc(50% - 87.5px);
 }
+
+.Fashion {
+    margin: 0;
+    width: 100vw;
+    height: 850px;
+    background: #fff;
+}
+
+.Fashion h2 {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: #18191F;
+}
+
+.Fashion h4 {
+    margin-top: 24px;
+    width: 100%;
+    text-align: center;
+    color: #18191F;
+    opacity: 0.7;
+
+}
+
+.Fashion .Button {
+    margin-left: calc(50% - 75px);
+    width: max-content;
+}
+
+.BubbleContainer {
+    margin: 100px 83px;
+    width: calc(100% - 166px);
+    display: flex;
+    justify-content: space-between;
+}
+
+#stores-bubble {
+    margin-top: 144px;
+}
+
+#connect-bubble {
+    margin-top: 144px;
+}
+
+.Products {
+    padding: 0 70px;
+    width: calc(100% - 140px);
+}
+
+.Products h2 {
+    margin-bottom: 50px;
+}
+.ProductSummary {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.SummaryDescription {
+    width: 100%;
+}
+
+.ProductSummary h3{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.ProductSummary p {
+    width: calc(100% - 100px);
+    margin-bottom: 30px;
+}
+
+.ProductSummary .Button {
+    align-self: left;
+    width: max-content;
+}
+.SummaryPhoto {
+    width: 100%;
+    height: inherit;
+    background: blue;
+}
+
+.SummaryPhotoRight {
+    width: 100%;
+    height: inherit;
+    background: blue;
+    margin-right: 100px;
+}
