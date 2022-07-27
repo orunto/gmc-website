@@ -67,3 +67,38 @@
     height: max-content;
     color: #fff;
 }
+
+
+
+/* WAITLIST FORM */
+.WaitlistForm {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.WaitlistForm input {
+    padding: 18px 36px;
+    border-radius: 35px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    border: 2px solid #E28F1D;
+    outline: none;
+}
+
+.WaitlistForm ::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#email {
+    width: 440px;
+    background: transparent;
+}
+
+#submitbtn {
+    width: 220px;
+    background: #E28F1D;
+    margin-left: -220px;
+    cursor: pointer;
+}
