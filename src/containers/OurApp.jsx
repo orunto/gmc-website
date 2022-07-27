@@ -2,7 +2,7 @@ import '../css/Home.css';
 
 const OurApp = () => {
     return(
-        <nav></nav>
+        <section className='OurApp'></section>
     )
 }
 

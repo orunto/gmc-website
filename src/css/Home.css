@@ -1,3 +1,5 @@
+/* FOR MEN SECTION */
+
 .ForMen {
     margin: 0;
     width: 100vw;
@@ -31,6 +33,8 @@
     top: 470px;
     left: calc(50% - 87.5px);
 }
+
+/* FASHION SECTION */
 
 .Fashion {
     margin: 0;
@@ -74,6 +78,11 @@
 #connect-bubble {
     margin-top: 144px;
 }
+
+
+
+/* PRODUCTS SECTION */
+
 
 .Products {
     padding: 0 70px;
@@ -119,4 +128,68 @@
     height: inherit;
     background: blue;
     margin-right: 100px;
+}
+
+
+/* SOCIALS SECTION */
+.Socials {
+    margin-top: 275px;
+    padding: 0 70px;
+    margin-bottom: 100px;
+}
+.Socials h2{
+    margin-bottom: 24px;
+}
+
+.Socials h4{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.SocialsTopRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.SocialsBottomRow {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#instacard{
+    background-image: linear-gradient(0deg, rgba(225, 48, 108, 0.2), rgba(225, 48, 108, 0.2)), url(../images/skin.webp);
+    box-shadow: 0px 10px 20px rgba(225, 48, 108, 0.07);
+}
+
+#twittercard{
+    background-image: linear-gradient(0deg, rgba(29, 155, 240, 0.2), rgba(29, 155, 240, 0.2)), url(../images/pexels-maria-orlova-4947748.webp);
+    box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.07);
+}
+
+#facebookcard{
+    background-image: linear-gradient(0deg, rgba(23, 120, 242, 0.2), rgba(23, 120, 242, 0.2)), url(../images/pexels-amusan-6732346.webp);
+    box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.07)
+}
+
+#linkedincard{
+    background-image: linear-gradient(0deg, rgba(10, 102, 194, 0.2), rgba(10, 102, 194, 0.2)), url(../images/pexels-cottonbro-4727484.webp);
+    box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.07);
+}
+
+#whatsappcard{
+    background-image: linear-gradient(0deg, rgba(40, 209, 70, 0.2), rgba(40, 209, 70, 0.2)), url(../images/pexels-cottonbro-6626903.webp);
+    box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.07);
+}
+
+
+
+/* OUR APP SECTION */
+.OurApp {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(73.57deg, rgba(24, 25, 31, 0.7) 0%, rgba(24, 25, 31, 0.342708) 51.14%, rgba(24, 25, 31, 0.021) 100.19%);
 }

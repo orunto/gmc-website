@@ -1,4 +1,4 @@
-import { NavBar, ForMen, Fashion, Products } from '../containers';
+import { NavBar, ForMen, Fashion, Products, Socials } from '../containers';
 
 import '../css/Home.css';
 
@@ -9,6 +9,7 @@ const Home = () => {
             <ForMen/>
             <Fashion/>
             <Products/>
+            <Socials/>
         </div>
     )
 }
