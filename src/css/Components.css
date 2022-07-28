@@ -32,6 +32,49 @@
     font-size: 18px;
 }
 
+/* PRODUCT SUMMARY */
+.ProductSummary {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.SummaryDescription {
+    width: 100%;
+}
+
+.ProductSummary h3{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.ProductSummary p {
+    width: calc(100% - 100px);
+    margin-bottom: 30px;
+}
+
+.ProductSummary .Button {
+    align-self: left;
+    width: max-content;
+}
+.SummaryPhoto {
+    width: 100%;
+    height: inherit;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.SummaryPhotoRight {
+    width: 100%;
+    height: inherit;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 100px;
+}
+
 
 /* Social Cards in the Social Section */
 

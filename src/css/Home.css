@@ -92,43 +92,31 @@
 .Products h2 {
     margin-bottom: 50px;
 }
-.ProductSummary {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 100px;
+
+#learnfashion {
+    background-image: url(../images/pexels-cottonbro-6626399.webp);
 }
 
-.SummaryDescription {
-    width: 100%;
+#fashionitems {
+    background-image: url(../images/pexels-kai-pilger-996329.webp);
 }
 
-.ProductSummary h3{
-    text-align: left;
-    margin-bottom: 30px;
+#dressed {
+    background-image: url(../images/pexels-thirdman-6109551.webp);
 }
 
-.ProductSummary p {
-    width: calc(100% - 100px);
-    margin-bottom: 30px;
+#starterpacks {
+    background-image: url(../images/pexels-pixabay-325876.webp);
 }
 
-.ProductSummary .Button {
-    align-self: left;
-    width: max-content;
-}
-.SummaryPhoto {
-    width: 100%;
-    height: inherit;
-    background: blue;
+#creators {
+    background-image: url(../images/pexels-pnw-production-8276369.webp);
 }
 
-.SummaryPhotoRight {
-    width: 100%;
-    height: inherit;
-    background: blue;
-    margin-right: 100px;
+#mobileapp {
+    background-image: url(../images/Frame\ 24.webp);
 }
+
 
 
 /* SOCIALS SECTION */
@@ -190,7 +178,7 @@
 .OurApp {
     width: calc(100% - 140px);
     height: 300px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/Frame\ 24.webp');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/Frame\ 24.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
