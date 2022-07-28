@@ -44,6 +44,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .SocialCard svg {
@@ -91,7 +92,7 @@
     color: #fff;
 }
 
-#email {
+#tel {
     width: 440px;
     background: transparent;
 }
@@ -101,4 +102,78 @@
     background: #E28F1D;
     margin-left: -220px;
     cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    width: calc(100% - 140px);
+    padding: 60px 70px;
+    background: #0B0D17;
+    color: #fff;
+    font-family: 'Sora';
+}
+
+.FooterLinksContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.FooterLinks{
+    width: 255px;
+}
+
+.FooterLinks p {
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.FooterLinks a {
+    width: 100%;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: inherit;
+    font-size: 14px;
+}
+
+.FooterLinks span {
+    width: 100%;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: inherit;
+    font-size: 14px;
+}
+
+#footersocials {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footersocials a {
+    width: max-content;
+}
+
+footer hr {
+    width: 100vw;
+    margin: 0 0 64px -70px;
+    opacity: 0.1;
+    border: 0.5px solid #FFFFFF;
+}
+
+.EndCredits {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.EndCredits img {
+    height: 21px;
+}
+
+span a {
+    color: inherit;
 }
