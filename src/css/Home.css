@@ -198,3 +198,29 @@
     color: #fff;
     opacity: 0.7;
 }
+
+@media (max-width: 1000px) {
+    .ForMen h1{
+        top: 270px;
+    }
+
+    .Fashion {
+        display: none;
+    }
+
+    .Products {
+        display: none;
+    }
+
+    .Socials {
+        display: none;
+    }
+
+    .OurApp {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}

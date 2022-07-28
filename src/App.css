@@ -10,7 +10,7 @@ a{
 h1 {
   font-family: 'Rische';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 64px;
   line-height: 82px;
   text-align: center;
@@ -71,4 +71,26 @@ p {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-family: 'Rische';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+
+    text-align: center;
+    letter-spacing: -0.24px;
+  }
+
+  h4 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
 }
