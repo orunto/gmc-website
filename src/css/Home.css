@@ -203,24 +203,93 @@
     .ForMen h1{
         top: 270px;
     }
-
+    
     .Fashion {
-        display: none;
+        display: block;
+        width: calc(100% - 60px);
+        height: max-content;
+        padding: 0 30px;
+        margin-bottom: 250px;
+    }
+    
+    .Fashion h2 {
+        margin-top: 70px;
+    }
+    
+    .BubbleContainer {
+        display: block;
+        width: calc(100% - 60px);
+        margin: 0 auto;
+    }
+
+    #stores-bubble {
+        margin: 50px auto;
+    }
+
+    #connect-bubble {
+        margin: 50px auto;
+    }
+
+    .Fashion .Button {
+        margin: 100px auto;
     }
 
     .Products {
-        display: none;
+        padding: 0 30px;
+        width: calc(100% - 60px);
+        display: block;
     }
 
     .Socials {
-        display: none;
+        padding: 0 30px;
+        width: calc(100% - 60px);
+        height: 610px;
+        display: block;
     }
 
+    .Socials h4 {
+        margin-bottom: 50px;
+    }
+
+    .SocialsTopRow {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 0;
+    }
+
+    #instacard {
+        top: 0;
+        left: 0;
+    }
+
+    #twittercard {
+        right: 0;
+    }
+
+    #facebookcard {
+        top: 146px;
+    }
+
+    #linkedincard {
+        right: 0;
+    }
+
+    #whatsappcard {
+        top: 146px;
+    }
+
+    .SocialsBottomRow {
+        top: -155px;
+        position: relative;
+        width: 100%;
+        height: 300px;
+        display: block;
+        margin: 0;
+    }
     .OurApp {
-        display: none;
-    }
-
-    footer {
-        display: none;
+        width: calc(100% - 60px);
+        padding: 100px 30px;
     }
 }

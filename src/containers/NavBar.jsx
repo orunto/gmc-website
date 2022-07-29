@@ -21,7 +21,7 @@ const NavBar = () => {
                 <li>Reads</li>
             </ul>
 
-            <Button>Visit Crib</Button>
+            <a href='/reads'><Button>Visit Crib</Button></a>
         </nav>
     )
 }

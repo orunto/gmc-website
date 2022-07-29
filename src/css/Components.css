@@ -44,6 +44,14 @@
     width: 100%;
 }
 
+.SummaryDescription .SummaryPhoto {
+    display: none;
+}
+
+.SummaryDescription .SummaryPhotoRight {
+    display: none;
+}
+
 .ProductSummary h3{
     text-align: left;
     margin-bottom: 30px;
@@ -219,4 +227,170 @@ footer hr {
 
 span a {
     color: inherit;
+}
+
+@media (max-width: 1000px) {
+    /* BUTTON */
+    .Button {
+        font-size: 15px;
+    }
+
+    .Bubbles {
+        margin: 50px auto;
+    }
+
+
+
+
+    /* PRODUCTS */
+    .ProductSummary {
+        display: block;
+    }
+
+    .ProductSummary h3 {
+        width: 100%;
+    }
+
+    .SummaryDescription .SummaryPhoto {
+        height: 150px;
+        display: block!important;
+        
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 30px;
+    }
+
+    .SummaryDescription .SummaryPhotoRight {
+        display: block!important;
+        
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+    .SummaryPhoto {
+        display: none;
+    }
+
+    .SummaryPhotoRight {
+        display: none;
+    }
+
+    .ProductSummary p {
+        width: 100%;
+    }
+
+
+
+
+    /* SOCIAL CARDS */
+
+    .SocialCard {
+        position: absolute;
+        width: 116px;
+        height: 96px;
+        padding: 12px 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .SocialCard svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .SocialSnippets {
+        display: none;
+    }
+    
+    .SocialCard p {
+        display: none;
+    }
+
+    .SocialCard span {
+        width: 100%;
+        
+    }
+
+    /* WAITLIST FORM */
+    .WaitlistForm {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .WaitlistForm form {
+        width: 100%;
+        display: flex;
+    }
+
+    .WaitlistForm input {
+        padding: 20px 18px;
+        font-size: 15px;
+    }
+
+    #tel {
+        width: calc(100% - 36px);
+    }
+
+    #submitbtn {
+        margin-left: -50%;
+        width: max-content;
+    }
+
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 75px 30px;
+        width: calc(100% - 60px);
+    }
+    
+    .FooterLinksContainer {
+        /* position: relative; */
+        flex-wrap: wrap;
+    }
+
+    .FooterLinks {
+        width: 140px;
+        margin-bottom: 50px;
+    }
+
+    .FooterLinks p {
+        margin-bottom: 24px;
+    }
+
+    .FooterLinks a {
+        width: 170px;
+        font-size: 12px;
+    }
+
+    #footersocialscontainer {
+        width: 255px
+    }
+
+    #footersocialscontainer span {
+        font-size: 12px;
+    }
+
+    .EndCredits {
+        width: 100%;
+        display: block;
+    }
+
+    .EndCredits span {
+        width: 100%;
+        margin-bottom: 50px;
+        display: inline-block;
+    }
+
+    .EndCredits img {
+        margin-bottom: 50px;
+    }
 }

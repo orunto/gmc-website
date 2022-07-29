@@ -31,7 +31,7 @@ const Footer = () => {
                     <a href='#'>Terms of Service</a>
                 </div>
 
-                <div className="FooterLinks">
+                <div className="FooterLinks" id="footersocialscontainer">
                     <p>Get In Touch</p>
                     <div id="footersocials">
                         <a href='#'><FooterInstaIco/></a>

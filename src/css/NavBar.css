@@ -43,6 +43,10 @@ nav ul li {
     color: #fff;
 }
 
+nav .Button {
+    width: max-content;
+}
+
 @media (max-width: 1000px) {
     nav {
         display: block;
@@ -107,6 +111,5 @@ nav ul li {
         padding: 0;
         color: #E28F1D;
         background: none;
-        /* display: none; */
     }
 }
