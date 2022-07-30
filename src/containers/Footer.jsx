@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className="FooterLinks">
                     <p>Legal</p>
                     <a href='/privacypolicy'>Cookies and Privacy Policy</a>
-                    <a href='#'>Terms of Service</a>
+                    <a href='/termsofservice'>Terms of Service</a>
                 </div>
 
                 <div className="FooterLinks" id="footersocialscontainer">
@@ -50,7 +50,7 @@ const Footer = () => {
             <div className='EndCredits'>
                 <span>© 2020 Pepperest. All rights reserved</span>
                 <img src={Logo} />
-                <span><a>Terms of Service</a> | <a href=''>Privacy Policy</a></span>
+                <span><a href='/termsofservice'>Terms of Service</a> | <a href='/privacypolicy'>Privacy Policy</a></span>
             </div>
         </footer>
     )
