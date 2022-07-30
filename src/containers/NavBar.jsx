@@ -1,5 +1,5 @@
 import Logo from '../images/Logo.png';
-import LogoMobile from '../images/LogoMobile.png';
+import LogoMobile from '../images/Logomobile.png';
 import { ReactComponent as MenuIco} from '../images/MenuIco.svg';
 import { ReactComponent as CancelIco} from '../images/MenuIco.svg';
 import { ReactComponent as ProductDropdown} from '../images/ProductDropdown.svg';
