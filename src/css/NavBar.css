@@ -54,7 +54,7 @@ nav .Button {
 @media (max-width: 1000px) {
     nav {
         display: block;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: calc(100vw - 60px);
