@@ -18,21 +18,25 @@ const Fashion = () => {
                     <h5>Answers</h5>
                     <p>Find the information you need, answers to any questions</p>
                 </Bubbles>
+                
                 <Bubbles id="stores-bubble">
                     <StoresIco/>
                     <h5>Stores</h5>
                     <p>Find the best stores to shop from</p>
                 </Bubbles>
+
                 <Bubbles>
                     <AIIco/>
                     <h5>AI</h5>
                     <p>Use our AI to build up your styles</p>
                 </Bubbles>
+
                 <Bubbles id="connect-bubble">
                     <ConnectIco/>
                     <h5>Connect</h5>
                     <p>Connect to the best of fashion talent in Nigeria</p>
                 </Bubbles>
+
                 <Bubbles>
                     <EasyIco/>
                     <h5>Easy</h5>

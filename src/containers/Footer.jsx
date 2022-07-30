@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='FooterLinksContainer'>
                 <div className="FooterLinks">
                     <p>Company</p>
-                    <a href='#'>About Us</a>
+                    <a href='/company'>About Us</a>
                     <a href='#'>Reads</a>
                     <a href='#'>FAQs</a>
                 </div>

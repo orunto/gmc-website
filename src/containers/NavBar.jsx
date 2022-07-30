@@ -59,7 +59,7 @@ const NavBar = () => {
             </div>
             <ul>
                 <li>Products <ProductDropdown/></li>
-                <li>Company</li>
+                <a href='/company'><li>Company</li></a>
                 <li>Support</li>
                 <li>Reads</li>
             </ul>

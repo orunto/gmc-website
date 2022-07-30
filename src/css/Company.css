@@ -1,0 +1,74 @@
+
+.CompanyHeader {
+    width: calc(100% - 140px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 250px 70px;
+}
+
+#future {
+    background-image: linear-gradient(73.65deg, #18191F 0%, rgba(24, 25, 31, 0.54026) 46.73%, rgba(24, 25, 31, 0.03) 98.61%), url('../images/pexels-teddy-tavan-4890733.webp');
+}
+
+#ourgoal {
+    background-image: linear-gradient(73.65deg, #18191F 0%, rgba(24, 25, 31, 0.54026) 46.73%, rgba(24, 25, 31, 0.03) 98.61%), url('../images/pexels-savvas-stavrinos-814544.webp');
+    /* pexels-savvas-stavrinos-814544 */
+}
+
+.Company h4 {
+    margin: 100px 70px;
+    text-align: center;
+}
+
+.CompanyHeader h1 {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.Important {
+    width: calc(100% - 140px);
+    padding: 100px 70px;
+}
+
+.Important h2 {
+    margin-bottom: 100px;
+}
+
+
+#ease {
+    background-image: url(../images/pexels-oladimeji-ajegbile-2379886.webp);
+    /* pexels-oladimeji-ajegbile-2379886 */
+}
+
+.NumbersContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1000px) {
+
+    .Company h4 {
+        margin: 100px 30px;
+    }
+
+    .CompanyHeader {
+        width: calc(100% - 60px);
+        padding: 250px 30px;
+    }
+
+    .Important {
+        width: calc(100% - 60px);
+        padding: 100px 30px;
+    }
+
+    .Important h2 {
+        margin-bottom: 50px;
+    }
+
+    .NumbersContainer {
+        display: block;
+    }
+}
