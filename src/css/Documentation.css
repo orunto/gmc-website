@@ -1,0 +1,36 @@
+.Documentation {
+    padding: 100px 70px;
+}
+
+.Documentation h1 {
+    margin-bottom: 100px;
+}
+
+.Documentation h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Documentation h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Documentation p {
+    margin-bottom: 20px;
+}
+
+.Documentation a {
+    color: #E28F1D;
+}
+
+.Documentation ul {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+@media (max-width: 1000px) {
+    .Documentation{
+        padding: 50px 30px;
+    }
+}

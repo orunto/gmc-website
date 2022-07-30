@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home, Reads } from './pages';
+import { Home, PrivacyPolicy, Reads } from './pages';
 import './App.css';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/reads" element={<Reads/>} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
       </Routes>
     </Router>
   );
