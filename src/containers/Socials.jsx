@@ -15,7 +15,7 @@ const Socials = () => {
             <h2>We talk a lot on our social media</h2>
             <h4>Join in the conversation</h4>
             <div className='SocialsTopRow'>
-                <a href='https://instagram.com/gentlemens.crib_?igshid=YmMyMTA2M2Y=' target='_blank'><SocialCard id="instacard">
+                <a href='https://instagram.com/gentlemens.crib_?igshid=YmMyMTA2M2Y=' target='_blank' rel="noreferrer"><SocialCard id="instacard">
                     <InstaIco />
                     <div className="SocialSnippets">
                         <QuoteMark/>
@@ -25,7 +25,7 @@ const Socials = () => {
                     <span>Drop a like</span>
                 </SocialCard></a>
 
-                <a href='https://twitter.com/gentlemenscrib' target='_blank'><SocialCard id="twittercard">
+                <a href='https://twitter.com/gentlemenscrib' target='_blank' rel="noreferrer"><SocialCard id="twittercard">
                     <TwitterIco />
                     <div className="SocialSnippets">
                         <QuoteMark/>
@@ -35,7 +35,7 @@ const Socials = () => {
                     <span>Retweet</span>
                 </SocialCard></a>
 
-                <a href='https://www.facebook.com/profile.php?id=100067959218609' target='_blank'><SocialCard id="facebookcard">
+                <a href='https://www.facebook.com/profile.php?id=100067959218609' target='_blank' rel="noreferrer"><SocialCard id="facebookcard">
                     <FacebookIco />
                     <div className="SocialSnippets">
                         <QuoteMark/>
@@ -47,7 +47,7 @@ const Socials = () => {
             </div>
 
             <div className='SocialsBottomRow'>
-            <a href='https://www.linkedin.com/company/gentlemens-crib/' target='_blank'><SocialCard id="linkedincard">
+            <a href='https://www.linkedin.com/company/gentlemens-crib/' target='_blank' rel="noreferrer"><SocialCard id="linkedincard">
                     <LinkedInIco />
                     <div className="SocialSnippets">
                         <QuoteMark/>
@@ -57,7 +57,7 @@ const Socials = () => {
                     <span>Thumbs Up</span>
                 </SocialCard></a>
 
-                <a href='https://wa.me/2348027132741' target='_blank'><SocialCard id="whatsappcard">
+                <a href='https://wa.me/2348027132741' target='_blank' rel="noreferrer"><SocialCard id="whatsappcard">
                     <WhatsappIco />
                     <div className="SocialSnippets">
                         <QuoteMark/>
