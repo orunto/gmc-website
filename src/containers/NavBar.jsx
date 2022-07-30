@@ -1,6 +1,5 @@
 import Logo from '../images/Logo.png';
-import Logo2 from '../images/Logo2.png';
-// import LogoMobile from '../images/LogoMobile.png';
+import LogoMobile from '../images/LogoMobile.png';
 import { ReactComponent as MenuIco} from '../images/MenuIco.svg';
 import { ReactComponent as CancelIco} from '../images/MenuIco.svg';
 import { ReactComponent as ProductDropdown} from '../images/ProductDropdown.svg';
@@ -54,7 +53,7 @@ const NavBar = () => {
         <nav id="nav">
             <img src={Logo} alt="Logo"/>
             <div className='MobileNavBar'>
-                <img src={Logo2} alt="Logo" id="mobile"/>
+                <img src={LogoMobile} alt="Logo" id="mobile"/>
                 <MenuIco id="menu" onClick={Drop}/>
                 <CancelIco id="cancel" onClick={Fold}/>
             </div>
