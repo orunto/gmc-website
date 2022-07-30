@@ -112,12 +112,13 @@
 .SocialSnippets svg{
     width: 16px;
     height: 14px;
+    color: transparent;
 }
 
 .SocialSnippets p{
     width: calc(100% - 16px);
     height: max-content;
-    color: #fff;
+    color: transparent;
 }
 
 
