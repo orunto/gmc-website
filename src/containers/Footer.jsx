@@ -48,7 +48,7 @@ const Footer = () => {
             <hr/>
 
             <div className='EndCredits'>
-                <span>© 2020 Pepperest. All rights reserved</span>
+                <span>© 2022 Gentlemen's Crib. All rights reserved</span>
                 <img src={Logo} />
                 <span><a href='/termsofservice'>Terms of Service</a> | <a href='/privacypolicy'>Privacy Policy</a></span>
             </div>
