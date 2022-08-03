@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="FooterLinks">
                     <p>Company</p>
                     <a href='/company'>About Us</a>
-                    <a href='#'>Reads</a>
+                    <a href='https://blog.gentlemenscrib.com'>Reads</a>
                     <a href='#'>FAQs</a>
                 </div>
 
