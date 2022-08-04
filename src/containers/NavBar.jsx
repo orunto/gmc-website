@@ -51,7 +51,7 @@ function Fold () {
 const NavBar = () => {
     return(
         <nav id="nav">
-            <img src='https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo2.png' alt="Logo"/>
+            <a href='/'><img src='https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo2.png' alt="Logo"/></a>
             <div className='MobileNavBar'>
                 <img src={LogoMobile} alt="Logo" id="mobile"/>
                 <MenuIco id="menu" onClick={Drop}/>
@@ -59,9 +59,9 @@ const NavBar = () => {
             </div>
             <ul>
                 <li>Products <ProductDropdown/></li>
-                <a href='/company'><li>Company</li></a>
+                <li><a href='/company'>Company</a></li>
                 <li>Support</li>
-                <a href='https://blog.gentlemenscrib.com'><li>Reads</li></a>
+                <li><a href='https://blog.gentlemenscrib.com'>Reads</a></li>
             </ul>
 
             <a href='https://blog.gentlemenscrib.com'><Button>Visit Crib</Button></a>

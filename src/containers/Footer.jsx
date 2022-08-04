@@ -3,7 +3,6 @@ import { ReactComponent as FooterTwitterIco } from '../images/FooterTwitterIco.s
 import { ReactComponent as FooterFacebookIco } from '../images/FooterFacebookIco.svg';
 import { ReactComponent as FooterWhatsappIco } from '../images/FooterWhatsappIco.svg';
 import { ReactComponent as FooterLinkedInIco } from '../images/FooterLinkedInIco.svg';
-import Logo from '../images/Logo.png';
 
 import '../css/Components.css';
 
@@ -49,7 +48,7 @@ const Footer = () => {
 
             <div className='EndCredits'>
                 <span>© 2022 Gentlemen's Crib. All rights reserved</span>
-                <img src={Logo} />
+                <img src='https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo2.png' alt="Logo"/>
                 <span><a href='/termsofservice'>Terms of Service</a> | <a href='/privacypolicy'>Privacy Policy</a></span>
             </div>
         </footer>
