@@ -4,30 +4,35 @@
   font-family: 'Rische';
   font-weight: bolder;
   src: url('./css/fonts/Rische\ Bold.otf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Rische';
   font-weight: lighter;
   src: url('./css/fonts/Rische\ Light.otf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Rische';
   font-weight: normal;
   src: url('./css/fonts/Rische\ Regular.otf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Rische';
   font-weight: 500;
   src: url('./css/fonts/Rische\ Medium.otf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Rische';
   font-weight: bold;
   src: url('./css/fonts/Rische\ Semibold.otf');
+  font-display: swap;
 }
 
 
