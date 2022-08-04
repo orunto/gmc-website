@@ -61,10 +61,10 @@ const NavBar = () => {
                 <li>Products <ProductDropdown/></li>
                 <a href='/company'><li>Company</li></a>
                 <li>Support</li>
-                <a href='https://blog.gentlemsnescrib.com'><li>Reads</li></a>
+                <a href='https://blog.gentlemenscrib.com'><li>Reads</li></a>
             </ul>
 
-            <a href='https://blog.gentlemsnescrib.com'><Button>Visit Crib</Button></a>
+            <a href='https://blog.gentlemenscrib.com'><Button>Visit Crib</Button></a>
         </nav>
     )
 }
