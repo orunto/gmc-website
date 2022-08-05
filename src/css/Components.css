@@ -7,7 +7,14 @@
     background: #E28F1D;
     color: #fff;
     cursor: pointer;
+    transition: 0.3s;
+    width: max-content;
 } 
+
+.Button:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 4px rgba(226, 143, 29, 0.25);
+}
 
 /* Bubbles on the Fashion Section */
 
@@ -96,6 +103,7 @@
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .SocialCard svg {
