@@ -33,11 +33,11 @@ const Footer = () => {
                 <div className="FooterLinks" id="footersocialscontainer">
                     <p>Get In Touch</p>
                     <div id="footersocials">
-                        <a href='https://instagram.com/gentlemens.crib_?igshid=YmMyMTA2M2Y=' target='_blank' rel="noreferrer"><FooterInstaIco/></a>
-                        <a href='https://twitter.com/gentlemenscrib' target='_blank' rel="noreferrer"><FooterTwitterIco/></a>
-                        <a href='https://wa.me/2348027132741' target='_blank' rel="noreferrer"><FooterWhatsappIco/></a>
-                        <a href='https://www.facebook.com/profile.php?id=100067959218609' target='_blank' rel="noreferrer"><FooterFacebookIco/></a>
-                        <a href='https://www.linkedin.com/company/gentlemens-crib/' target='_blank' rel="noreferrer"><FooterLinkedInIco/></a>
+                        <a href='https://instagram.com/gentlemens.crib_?igshid=YmMyMTA2M2Y=' target='_blank' rel="noreferrer">Our Instagram<FooterInstaIco/></a>
+                        <a href='https://twitter.com/gentlemenscrib' target='_blank' rel="noreferrer">Our Twitter<FooterTwitterIco/></a>
+                        <a href='https://wa.me/2348027132741' target='_blank' rel="noreferrer">Our Whatsapp<FooterWhatsappIco/></a>
+                        <a href='https://www.facebook.com/profile.php?id=100067959218609' target='_blank' rel="noreferrer">Our Facebook<FooterFacebookIco/></a>
+                        <a href='https://www.linkedin.com/company/gentlemens-crib/' target='_blank' rel="noreferrer">Our LinkedIn<FooterLinkedInIco/></a>
                     </div>
                     <span>support@gentlemenscrib.com</span>
                     <span>Block 2, Flat 6, Baba Omojola Estate, Bagada, Lagos</span>

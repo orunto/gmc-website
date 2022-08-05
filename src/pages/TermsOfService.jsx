@@ -4,7 +4,7 @@ import '../css/Documentation.css';
 
 const  TermsOfService = () => {
     return(
-        <div>
+        <div className='DocBody'>
             <NavBar/>
             <div className='Documentation'>
                 <h1>Terms of Service Policy</h1>

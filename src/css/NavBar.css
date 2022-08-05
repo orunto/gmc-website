@@ -1,3 +1,21 @@
+.DocBody nav ul li {
+    color: #18191F;
+}
+
+#logoblack {
+    display: none;
+}
+
+.DocBody nav img {
+    display: none;
+}
+.DocBody #logoblack {
+    display: block!important;
+}
+
+.DocBody #logowhite {
+    display: none;
+}
 nav {
     position: absolute;
     top: 30px;
@@ -62,6 +80,13 @@ nav .Button {
 }
 
 @media (max-width: 1000px) {
+    .DocBody nav img {
+        display: block;
+    }
+    .DocBody #logoblack {
+        display: none!important;
+    }
+    
     nav {
         display: block;
         position: fixed;
@@ -79,6 +104,7 @@ nav .Button {
 
     nav img {
         display: none;
+        height: 20px;
     }
 
     .MobileNavBar {
@@ -118,10 +144,15 @@ nav .Button {
         text-align: right;
         margin-right: 0;
         display: flex;
+        color: #18191F;
     }
 
     nav ul li svg {
         height: 22px;
+    }
+
+    nav ul li svg path {
+        fill: #18191F;
     }
 
     nav .Button {
@@ -130,5 +161,6 @@ nav .Button {
         padding: 0;
         color: #E28F1D;
         background: none;
+        font-size: 18px;
     }
 }

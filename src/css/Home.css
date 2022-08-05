@@ -4,7 +4,7 @@
     margin: 0;
     width: 100vw;
     height: 805px;
-    background: linear-gradient(73.65deg, #18191F 0%, rgba(24, 25, 31, 0.54026) 46.73%, rgba(24, 25, 31, 0.03) 98.61%), url('../images/Welcome Background.webp');
+    background: linear-gradient(73.65deg, #18191F 0%, rgba(24, 25, 31, 0.54026) 46.73%, rgba(24, 25, 31, 0.03) 98.61%), url('../images/Hero.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -94,27 +94,27 @@
 }
 
 #learnfashion {
-    background-image: url(../images/pexels-cottonbro-6626399.webp);
+    background-image: url(../images/LearnFashion.webp);
 }
 
 #fashionitems {
-    background-image: url(../images/pexels-kai-pilger-996329.webp);
+    background-image: url(../images/FashionItems.webp);
 }
 
 #dressed {
-    background-image: url(../images/pexels-thirdman-6109551.webp);
+    background-image: url(../images/GetDressed.webp);
 }
 
 #starterpacks {
-    background-image: url(../images/pexels-pixabay-325876.webp);
+    background-image: url(../images/StarterPacks.webp);
 }
 
 #creators {
-    background-image: url(../images/pexels-pnw-production-8276369.webp);
+    background-image: url(../images/Creator.webp);
 }
 
 #mobileapp {
-    background-image: url(../images/Frame\ 24.webp);
+    background-image: url(../images/OurApp.webp);
 }
 
 
@@ -149,27 +149,27 @@
 }
 
 #instacard{
-    background-image: linear-gradient(0deg, rgba(225, 48, 108, 0.2), rgba(225, 48, 108, 0.2)), url(../images/skin.webp);
+    background-image: linear-gradient(0deg, rgba(225, 48, 108, 0.2), rgba(225, 48, 108, 0.2)), url(../images/Instagram.webp);
     box-shadow: 0px 10px 20px rgba(225, 48, 108, 0.07);
 }
 
 #twittercard{
-    background-image: linear-gradient(0deg, rgba(29, 155, 240, 0.2), rgba(29, 155, 240, 0.2)), url(../images/pexels-maria-orlova-4947748.webp);
+    background-image: linear-gradient(0deg, rgba(29, 155, 240, 0.2), rgba(29, 155, 240, 0.2)), url(../images/Twitter.webp);
     box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.07);
 }
 
 #facebookcard{
-    background-image: linear-gradient(0deg, rgba(23, 120, 242, 0.2), rgba(23, 120, 242, 0.2)), url(../images/pexels-amusan-6732346.webp);
+    background-image: linear-gradient(0deg, rgba(23, 120, 242, 0.2), rgba(23, 120, 242, 0.2)), url(../images/Facebook.webp);
     box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.07)
 }
 
 #linkedincard{
-    background-image: linear-gradient(0deg, rgba(10, 102, 194, 0.2), rgba(10, 102, 194, 0.2)), url(../images/pexels-cottonbro-4727484.webp);
+    background-image: linear-gradient(0deg, rgba(10, 102, 194, 0.2), rgba(10, 102, 194, 0.2)), url(../images/LinkedIn.webp);
     box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.07);
 }
 
 #whatsappcard{
-    background-image: linear-gradient(0deg, rgba(40, 209, 70, 0.2), rgba(40, 209, 70, 0.2)), url(../images/pexels-cottonbro-6626903.webp);
+    background-image: linear-gradient(0deg, rgba(40, 209, 70, 0.2), rgba(40, 209, 70, 0.2)), url(../images/Whatsapp.webp);
     box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.07);
 }
 
@@ -178,7 +178,7 @@
 .OurApp {
     width: calc(100% - 140px);
     height: 300px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/Frame\ 24.webp);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/OurApp2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

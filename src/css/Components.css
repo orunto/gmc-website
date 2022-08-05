@@ -206,7 +206,9 @@ footer {
 }
 
 #footersocials a {
-    width: max-content;
+    width: 32px;
+    margin-top: -40px;
+    color: transparent!important;
 }
 
 footer hr {

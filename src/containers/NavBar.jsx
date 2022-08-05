@@ -1,4 +1,5 @@
-// import Logo from 'https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo2.png';
+import Logo from '../images/Logo.png';
+import LogoBlack from '../images/LogoBlack.png';
 import LogoMobile from '../images/LogoMobile.png';
 import { ReactComponent as MenuIco} from '../images/MenuIco.svg';
 import { ReactComponent as CancelIco} from '../images/MenuIco.svg';
@@ -51,7 +52,8 @@ function Fold () {
 const NavBar = () => {
     return(
         <nav id="nav">
-            <a href='/'><img src='https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo2.png' alt="Logo"/></a>
+            <a id="logowhite" href='/'><img src={Logo} alt="Logo"/></a>
+            <a href='/'><img src={LogoBlack} id="logoblack" alt="Logo"/></a>
             <div className='MobileNavBar'>
                 <img src={LogoMobile} alt="Logo" id="mobile"/>
                 <MenuIco id="menu" onClick={Drop}/>
