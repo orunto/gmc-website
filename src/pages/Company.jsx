@@ -38,10 +38,10 @@ const  Company = () => {
                 </ProductSummary>
 
                 <ProductSummary>
-                    <div className='SummaryPhotoRight' id="fashionitems"></div>
+                    <div className='SummaryPhotoRight' id="inclusion"></div>
                     <div className='SummaryDescription'>
                         <h3>Inclusion</h3>
-                        <div className='SummaryPhotoRight' id="fashionitems"></div>
+                        <div className='SummaryPhotoRight' id="inclusion"></div>
                         <p>Every single member of our community is important to us and we will treat everyone that way. Fashion influence has for far too long rested in the hands of selected members of society. We don’t like that. We are constantly working on expanding our operations to cross borders and continents such that every man has access to a quality fashion experience.</p>
                     </div>
                 </ProductSummary>
@@ -50,10 +50,10 @@ const  Company = () => {
                 <ProductSummary>
                     <div className='SummaryDescription'>
                         <h3>Quality, always</h3>
-                        <div className='SummaryPhoto' id="ease"></div>
+                        <div className='SummaryPhoto' id="quality"></div>
                         <p>Quality assurance is important. Whether you’re spending $1,000 or $1 on a fashion item you should be getting your money’s worth. With the use of innovative technology we are eliminating fraud in fashion such as scam online stores and purchase of replicas. Our 3FA fashion service provider verification system ensures that all recommendations we make are the best you can get.</p>
                     </div>
-                    <div className='SummaryPhoto' id="ease"></div>
+                    <div className='SummaryPhoto' id="quality"></div>
                 </ProductSummary>
             </div>
 

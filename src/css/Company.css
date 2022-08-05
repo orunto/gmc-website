@@ -39,10 +39,18 @@
 
 
 #ease {
-    background-image: url(../images/Ease.jpg);
+    background-image: url(../images/Ease.webp);
     /* pexels-oladimeji-ajegbile-2379886 */
 }
 
+#inclusion {
+    background-image: url(../images/Inclusion.webp);
+    /* pexels-oladimeji-ajegbile-2379886 */
+}
+#quality {
+    background-image: url(../images/Quality.webp);
+    /* pexels-oladimeji-ajegbile-2379886 */
+}
 .NumbersContainer {
     width: 100%;
     display: flex;
