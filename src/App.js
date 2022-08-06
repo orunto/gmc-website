@@ -6,7 +6,12 @@ function App() {
   if (window.location.host.split(".")[0] == "reads") {
     return (
       <Router>
-        <Reads/>
+        <Routes>
+          <Route path="/" element={<Reads/>} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
+          <Route path="/termsofservice" element={<TermsOfService/>} />
+          <Route path="/company" element={<Company/>} />
+        </Routes>
       </Router>
     );
   }
