@@ -233,6 +233,57 @@
 }
 
 
+/* POSTS */
+.PostHeader {
+    width: calc(100% - 140px);
+    padding: 200px 70px;
+    background-image: linear-gradient(0deg, rgba(24, 25, 31, 0.6), rgba(24, 25, 31, 0.6)), url(../images/FiveOutfitMistakes.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.PostHeader h1 {
+    width: 100%;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.PostHeader h4 {
+    width: 100%;
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.PostBody {
+    padding: 0 70px;
+    margin-bottom: 100px;
+}
+
+.PostBody h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.PostBody h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.PostBody p {
+    margin-bottom: 20px;
+}
+
+.PostBody a {
+    color: #E28F1D;
+}
+
+.PostBody ul {
+    font-size: inherit;
+    font-family: inherit;
+}
 
 @media (max-width: 1000px) {
     .SpotlightRead {
@@ -328,6 +379,16 @@
         margin-bottom: 50px;
     }
 
-    /* .OlderPostsItemImage {
-    } */
+    
+    
+    
+    /* POSTS */
+    .PostHeader {
+        width: calc(100% - 60px);
+        padding: 200px 30px;
+    }
+
+    .PostHeader h1 {
+        width: 100%;
+    }
 }

@@ -63,7 +63,7 @@ const NavBar = () => {
             </div>
             <ul>
                 <li>Products <ProductDropdown/></li>
-                <li><a href='/company'>Company</a></li>
+                <li><a href='https://company.gentlemenscrib.com'>Company</a></li>
                 <li>Support</li>
                 <li><a href='https://reads.gentlemenscrib.com'>Reads</a></li>
             </ul>

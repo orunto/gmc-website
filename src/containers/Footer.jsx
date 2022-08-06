@@ -1,3 +1,4 @@
+import Logo from '../images/Logo.png';
 import { ReactComponent as FooterInstaIco } from '../images/FooterInstaIco.svg';
 import { ReactComponent as FooterTwitterIco } from '../images/FooterTwitterIco.svg';
 import { ReactComponent as FooterFacebookIco } from '../images/FooterFacebookIco.svg';
@@ -12,22 +13,22 @@ const Footer = () => {
             <div className='FooterLinksContainer'>
                 <div className="FooterLinks">
                     <p>Company</p>
-                    <a href='/company'>About Us</a>
-                    <a href='https://blog.gentlemenscrib.com'>Reads</a>
+                    <a href='https://company.gentlemenscrib.com'>About Us</a>
+                    <a href='https://reads.gentlemenscrib.com'>Reads</a>
                     <a href='#'>FAQs</a>
                 </div>
 
                 <div className="FooterLinks">
                     <p>Products</p>
-                    <a href='#'>Starter Packs</a>
-                    <a href='#'>Community</a>
+                    <a href='https://starter.gentlemenscrib.com'>Starter Packs</a>
+                    <a href='https://wa.me/2348027132741'>Community</a>
                     <a href='#tel'>Mobile App</a>
                 </div>
 
                 <div className="FooterLinks">
                     <p>Legal</p>
-                    <a href='/privacypolicy'>Cookies and Privacy Policy</a>
-                    <a href='/termsofservice'>Terms of Service</a>
+                    <a href='https://privacy.gentlemenscrib.com'>Cookies and Privacy Policy</a>
+                    <a href='https://terms.gentlemenscrib.com'>Terms of Service</a>
                 </div>
 
                 <div className="FooterLinks" id="footersocialscontainer">
@@ -48,8 +49,8 @@ const Footer = () => {
 
             <div className='EndCredits'>
                 <span>© 2022 Gentlemen's Crib. All rights reserved</span>
-                <img src='https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo2.png' alt="Logo"/>
-                <span><a href='/termsofservice'>Terms of Service</a> | <a href='/privacypolicy'>Privacy Policy</a></span>
+                <a href='https://www.gentlemenscrib.com'><img src={Logo} alt="Logo"/></a>
+                <span><a href='https://terms.gentlemenscrib.com'>Terms of Service</a> | <a href='https://privacy.gentlemenscrib.com'>Privacy Policy</a></span>
             </div>
         </footer>
     )
