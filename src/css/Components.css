@@ -196,6 +196,19 @@ footer {
     margin-bottom: 12px;
     color: inherit;
     font-size: 14px;
+    transition: 0.3s;
+}
+
+.FooterLinks a:hover {
+    color: #E28F1D;
+}
+
+.FooterLinks svg path:hover {
+    fill: #E28F1D;
+}
+
+.FooterLinks svg circle:hover {
+    fill: #E28F1D;
 }
 
 .FooterLinks span {

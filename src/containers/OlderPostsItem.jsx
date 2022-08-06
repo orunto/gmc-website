@@ -1,8 +1,9 @@
 import '../css/Reads.css';
 
-const OlderPostsItem = () => {
+const OlderPostsItem = (props) => {
     return(
-        <div>
+        <div className='OlderPostsItem'>
+            {props.children}
         </div>
     )
 }

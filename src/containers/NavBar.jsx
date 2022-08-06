@@ -5,8 +5,10 @@ import { ReactComponent as MenuIco} from '../images/MenuIco.svg';
 import { ReactComponent as CancelIco} from '../images/MenuIco.svg';
 import { ReactComponent as ProductDropdown} from '../images/ProductDropdown.svg';
 import { Button } from '../components';
-
 import '../css/NavBar.css';
+
+const readslocation = 'reads' + window.location;
+
 
 function Drop () {
     const nav = document.querySelector("nav");
@@ -63,10 +65,10 @@ const NavBar = () => {
                 <li>Products <ProductDropdown/></li>
                 <li><a href='/company'>Company</a></li>
                 <li>Support</li>
-                <li><a href='https://blog.gentlemenscrib.com'>Reads</a></li>
+                <li><a href='https://reads.gentlemenscrib.com'>Reads</a></li>
             </ul>
 
-            <a href='https://blog.gentlemenscrib.com'><Button>Visit Crib</Button></a>
+            <a href='https://reads.gentlemenscrib.com'><Button>Visit Crib</Button></a>
         </nav>
     )
 }

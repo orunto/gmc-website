@@ -1,8 +1,9 @@
 import '../css/Reads.css';
 
-const RelatedReadsItem = () => {
+const RelatedReadsItem = (props) => {
     return(
-        <div>
+        <div className='RelatedReadsItem'>
+            {props.children}
         </div>
     )
 }
