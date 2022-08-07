@@ -53,27 +53,32 @@ const OlderPosts = () => {
                     </OlderPostsItem>
                 </a>
 
+                <a href='howtocleanyoursneakers'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='howtocleanyoursneakers'></div>
+                        <h3>How to clean your sneakers (The ultimate guide to sneaker care)</h3>
+                        <p>In this article, I'll share with you all you need to know concerning the care and maintenance of your sneakers to keep them looking good for a long time.</p>
+                        <h5>By Fikayomi</h5>
+                    </OlderPostsItem>
+                </a>
 
-                <OlderPostsItem>
-                    <div className='OlderPostsItemImage' id='howtocleanyoursneakers'></div>
-                    <h3>How to clean your sneakers (The ultimate guide to sneaker care)</h3>
-                    <p>In this article, I'll share with you all you need to know concerning the care and maintenance of your sneakers to keep them looking good for a long time.</p>
-                    <h5>By Fikayomi</h5>
-                </OlderPostsItem>
+                <a href='fiveamazingcasualoutfits'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='fiveamazingcasualoutfits'></div>
+                        <h3>5 Amazing Casual Outfits for Gentlemen</h3>
+                        <p>In this article, I'll be sharing with you, five casual outfits you should consider adding to your style portfolio today. </p>
+                        <h5>By Fikayomi</h5>
+                    </OlderPostsItem>
+                </a>
 
-                <OlderPostsItem>
-                    <div className='OlderPostsItemImage' id='fiveamazingcasualoutfits'></div>
-                    <h3>5 Amazing Casual Outfits for Gentlemen</h3>
-                    <p>In this article, I'll be sharing with you, five casual outfits you should consider adding to your style portfolio today. </p>
-                    <h5>By Fikayomi</h5>
-                </OlderPostsItem>
-
-                <OlderPostsItem>
-                    <div className='OlderPostsItemImage' id='blackfriday'></div>
-                    <h3>Black Friday Sales - Scam or Not</h3>
-                    <p>Is it a scam. These and many more are the questions that shall be answered in this article.</p>
-                    <h5>By Fikayomi</h5>
-                </OlderPostsItem>
+                <a href='blackfriday'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='blackfriday'></div>
+                        <h3>Black Friday Sales - Scam or Not</h3>
+                        <p>Is it a scam. These and many more are the questions that shall be answered in this article.</p>
+                        <h5>By Fikayomi</h5>
+                    </OlderPostsItem>
+                </a>
             </div>
         </div>
     )

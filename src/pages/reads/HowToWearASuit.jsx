@@ -7,11 +7,11 @@ const HowToWearASuit = () => {
     return(
         <div>
             <Helmet>
-                <title>9 Accessories Every Man Should Have</title>
+                <title>How to wear a suit (6 suit rules every man must follow)</title>
             </Helmet>
             <NavBar/>
             <PostHeader>
-            <h1>9 Accessories Every Man Should Have</h1>
+            <h1>How to wear a suit (6 suit rules every man must follow)</h1>
                 <h4>By Fikayomi</h4>
             </PostHeader>
             <PostBody>
