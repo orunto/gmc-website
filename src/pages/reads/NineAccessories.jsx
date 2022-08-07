@@ -39,8 +39,8 @@ const NineAccessories = () => {
                 <p>A gentleman should own a wallet of high quality preferably of a neutral colour because they match the colour of roughly all outfits. Wallets are a way of expressing your fashion taste as well as keeping your personal belongings such as money and documents safe and organised. If your wallet has lost its shape or/and aesthetics, you should change it as this accessory can have a lasting impact on people's perception of you.</p>
 
                 <h3>5. Sunglasses</h3>
-                <div className='PostPhotoWrapContainer' id='sunglasses'>
-                    <div className='PostPhoto'></div>
+                <div className='PostPhotoWrapContainer'>
+                    <div className='PostPhoto' id='sunglasses'></div>
                     <div className='PostPhotoElaborate'>
                         <p>Although sunglasses are great for protecting your eyes from excess (sun) light, they also add a touch of mystery to your persona and make whoever you engage curious.</p>
                         
@@ -58,8 +58,8 @@ const NineAccessories = () => {
                 <p>Ties have always been a symbol of honour and nobility, hence, it'll do you more good than not to adopt the style of wearing one, especially as a part of your professional outfit. Ties also signify capability which although you might be unaware of, tells those you engage with that you are confident of your abilities to execute that which is expected of you flawlessly. If you are considering beginning your necktie collection but you are unsure on the colours to start with, solid black and navy ties cannot harm your dress. </p>
 
                 <h3>9. Suspenders</h3>
-                <div className='PostPhotoWrapContainer' id='suspenders'>
-                    <div className='PostPhoto'></div>
+                <div className='PostPhotoWrapContainer'>
+                    <div className='PostPhoto' id='suspenders'></div>
                     <div className='PostPhotoElaborate'>
                         <p>Although suspenders are gradually becoming outdated since the introduction of belt to hold your trousers/shorts to your waist, its rareness has made it identified with formalities. However, they can be used casually, for humour and to stand out.</p>
                 
