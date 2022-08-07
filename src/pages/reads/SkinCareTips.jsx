@@ -7,65 +7,86 @@ const SkinCareTips = () => {
     return(
         <div>
             <Helmet>
-                <title>9 Accessories Every Man Should Have</title>
+                <title>skin care tips for men (best skin care routine for men)</title>
             </Helmet>
             <NavBar/>
             <div className='PostHeader'>
-                <h1>9 Accessories Every Man Should Have</h1>
+                <h1>skin care tips for men (best skin care routine for men)</h1>
                 <h4>By Fikayomi</h4>
             </div>
             <div className='PostBody'>
-                <p>There are certain accessories every man should have no matter how old or young he is and regardless of his occupation and lifestyle. Some of these accessories might be used as scarcely as once in three months, however, when the need to use them arrives, he will not need to worry and will only need to slide into them.</p>
+                <p>Your face is your money maker. It is the first place people often look at and start forming an impression about you. It is an important and often forgotten part of your appearance. Think about this, you are in a new place and you don't know your way around. I am sure that you look around at people and use their faces/ appearances to determine who you would be asking for directions.</p>
 
-                <p>Below are accessories every man should have in his possession.</p>
+                <p>Now, while not all of us have been blessed with fantastic genes, there are many things that we can do to maximize the potential we have. In this article I'll be sharing with you a very simple skincare routine as well as some tips that will help you to improve and maintain great skin.</p>
 
-                <h3>1. Cufflinks</h3>
+                <p><b>Disclaimer:</b> Everything in this article is based on research and experience. Do not consider this as professional advice but as a guide. Consider it your responsibility to tailor it to suit you. This article is not to replace professional consultation as some cases may require.</p>
+
+                <h2>Simple Skincare Routine For Men</h2>
+
+                <p>This routine has a few uncomplicated steps so it's a very easy habit to pick up and you don't waste your time with a 70 step routine. Consider this as the foundation of your skin care on which you build and add steps as suited for you.</p>
+
+                <h3>Wash Your Face Twice Daily</h3>
                 <div className='PostPhotoWrapContainer'>
-                    <div className='PostPhoto'></div>
+                    <div className='PostPhoto' id='washyourface'></div>
                     <div className='PostPhotoElaborate'>
-                        <p>Cufflinks are one of the classiest accessories you should own.</p>
-
-                        <p>A pair of cufflinks can transform your casual dressing into a professional one, and also leave the statement on everyone you cross paths with that you groom yourself down to the littlest details. Cufflinks also add to your gentleman's aura and can be worn on a date to get your lady melting. These cuffs come in different styles. They could be silver-plated, gold-coloured, glittery or conservative. Going for one you're comfortable in is very important as it will either boost or mar your level of confidence. Cufflinks are used on both plain and striped shirts as well as tailored suits which you should grab a hold of if you don't already own.</p>
+                        <p>I will assume that you wash your face every morning at the start of your day and now I want you to start washing your face before bed too. Invest in good quality face wash. Avoid washing your face with a bar of soap because they are usually too harsh and dry up the skin.</p>
                     </div>
                 </div>
 
-                <h3>2. A wristwatch</h3>
-                <p>A wristwatch is an essential accessory you must own as a man. This timepiece works beyond letting you know the time of the day. It is also a fashion statement that gives off the vibe that you are mature, accountable, confident and respect the importance of (your) time.  Wristwatches can be either leather or metal and come in different colours and styles. Rather than having multiple cheap ones, invest in a classy watch worthy of being around your wrist. </p>
-
-                <h3>3. Belt</h3>
-                <p>Another accessory the modern man must own are belts. There are belts which fit casual dressings and situations such as strolling in a park and paying a visit to your friend(s). These belts tend to be either multicoloured or brightly coloured. There are also professional belts which more often than not, are conservative in colour such as different shades of brown, and black. They go well with suits, and tuxedos and should be worn during meetings, dinner dates and so on. Every gentleman should possess at least two casual and business belts of great quality to smoothen his fashion experience.</p>
-
-                <h3>4. A wallet</h3>
-                <p>A gentleman should own a wallet of high quality preferably of a neutral colour because they match the colour of roughly all outfits. Wallets are a way of expressing your fashion taste as well as keeping your personal belongings such as money and documents safe and organised. If your wallet has lost its shape or/and aesthetics, you should change it as this accessory can have a lasting impact on people's perception of you.</p>
-
-                <h3>5. Sunglasses</h3>
+                <h3>Moisturize</h3>
                 <div className='PostPhotoWrapContainer'>
-                    <div className='PostPhoto' id='sunglasses'></div>
                     <div className='PostPhotoElaborate'>
-                        <p>Although sunglasses are great for protecting your eyes from excess (sun) light, they also add a touch of mystery to your persona and make whoever you engage curious.</p>
-                        
-                        <p>They also conceal imperfections and make your face appear more symmetrical which means that an average individual will find you more physically attractive with sunglasses on than not. They can also affect how you behave, making you more calm, cool and masculine. However, there are many scenes where putting one on will be uncalled for such as wearing one all through a date, during a business meeting or hours after the sun sets.</p>
+                        <p>After washing your face, show your skin some love by moisturising. <b>For the mornings, you are advised to use a moisturizer with SPF</b> (Sun Protection Factor) which will protect your skin from the harmful effects of the sun as you go about your day. Take note of some moisturizers that have SPF but also bleach the skin (avoid them). After you wash your face at night apply a moisturizer that will nourish your skin as you sleep. You don't need SPF in your night moisturizer.</p>
                     </div>
+                    <div className='PostPhoto' id='moisturize'></div>
                 </div>
 
-                <h3>6. Perfume</h3>
-                <p>A nice perfume perks up your level of attractiveness and presents you as a sharp man who has his things put together.   They make you feel fresher, go well with all other accessories and transform impressions people have of you into long-lasting memories. Perfumes also boost your confidence, increase your sex appeal and make you come across as a well-groomed professional in your place of work. When choosing a fragrance to adopt as yours, it is advised that you go for lighter scents with long-lasting effects because this increases how personal it becomes. </p>
+                <h3>Exfoliate</h3>
+                <p>Exfoliating removes dead skin cells on the surface and allows new skin to come to the surface. It removes dead and dull skin and leaves room for brighter healthy skin. You should exfoliate about once or twice weekly</p>
 
-                <h3>7. Jewellery</h3>
-                <p>When it comes to pieces of jewellery, you do not have to think about it. A small ring on a finger of your choice, a bracelet around either or both wrists or/and necklaces communicate your style or sentimental symbols to everyone that needs to know. </p>
+                <p>There are different methods of exfoliating, like the use of exfoliating sponges, brushes or scrubs. You should find the one that suits you best.</p>
 
-                <h3>8. Ties</h3>
-                <p>Ties have always been a symbol of honour and nobility, hence, it'll do you more good than not to adopt the style of wearing one, especially as a part of your professional outfit. Ties also signify capability which although you might be unaware of, tells those you engage with that you are confident of your abilities to execute that which is expected of you flawlessly. If you are considering beginning your necktie collection but you are unsure on the colours to start with, solid black and navy ties cannot harm your dress. </p>
+                <p>Like I mentioned earlier, these simple tips are the foundation. Depending on your consideration or lifestyle you can add things like eye creams, anti-aging cream etc.</p>
 
-                <h3>9. Suspenders</h3>
+                <h2>Skin Care Tips</h2>
+                <p>Together with the simple routine, I will be sharing some tips that will also improve your skin and help keep your skin healthy.</p>
+
+                <h3>Stop Touching Your Face</h3>
                 <div className='PostPhotoWrapContainer'>
-                    <div className='PostPhoto' id='suspenders'></div>
+                    <div className='PostPhoto' id='stoptouchingyourface'></div>
                     <div className='PostPhotoElaborate'>
-                        <p>Although suspenders are gradually becoming outdated since the introduction of belt to hold your trousers/shorts to your waist, its rareness has made it identified with formalities. However, they can be used casually, for humour and to stand out.</p>
+                        <p>You go through your day touching different surfaces picking up different germs and dirt, you put those dirty hands on your face and now transfer all that dirt and grime onto your face. You are using your own hands to damage your skin (sort of). If you know you can't help touching your face, at least try to keep your hands clean.</p>
+                    </div>
+                </div>
                 
-                        <p>All these accessories are ones every man is expected to have. If however, you find yourself uncomfortable with using a few of these accessories, don't. Of all accessories, your originality is the greatest of all.</p>
+                <h3>Drink Water</h3>
+                <div className='PostPhotoWrapContainer'>
+                    <div className='PostPhotoElaborate'>
+                        <p>Just drink water, the benefits are endless, not only will your skin benefit but your entire body. In fact, I want you to drink some now, yes right now.</p>
+                    </div>
+                    <div className='PostPhoto' id='drinkwater'></div>
+                </div>
+
+                <h3>Clean/Change Your Pillowcase And Towel</h3>
+                <div className='PostPhotoWrapContainer'>
+                    <div className='PostPhoto' id='changeyourpillowcase'></div>
+                    <div className='PostPhotoElaborate'>
+                        <p>Your face is buried in your pillow for 6 to 8 hours every night. It only makes sense to keep that surface clean. It's advisable to change or clean your pillowcases weekly and your towel once every two weeks.</p>
                     </div>
                 </div>
+                
+                <h3>Take Vitamin C</h3>
+                <div className='PostPhotoWrapContainer'>
+                    <div className='PostPhotoElaborate'>
+                        <p>Let's see some of the benefits of vitamin C on your skin. It helps smooth wrinkles, it boosts collagen, it promotes healing, it sometimes helps with dark spots too.</p>
+                    </div>
+                    <div className='PostPhoto' id='vitaminc'></div>
+                </div>
+
+                <h3>Have A Grooming Routine</h3>
+                <p>This one may not directly affect your skin but it's part of leveling up your face. If your skin care is on point you'll be holding yourself back if your grooming is not on point as well. Start from getting a haircut and managing your facial hair.</p>
+
+                <p>Now you have the knowledge you need to begin to improve your skin and your appearance in general. Be consistent with these things and have some patience and you will see results.</p>
             </div>
             <Footer/>
         </div>

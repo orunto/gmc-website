@@ -248,6 +248,7 @@
     width: 100%;
     color: #fff;
     margin-bottom: 50px;
+    text-transform: capitalize;
 }
 
 .PostHeader h4 {
@@ -260,6 +261,11 @@
 .PostBody {
     padding: 0 70px;
     margin-bottom: 100px;
+}
+
+.PostBody h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .PostBody h3 {
