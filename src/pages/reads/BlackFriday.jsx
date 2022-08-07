@@ -3,7 +3,7 @@ import { NavBar, Footer, PostHeader, PostBody, PostPhotoElaborate, PostPhotoWrap
 
 import '../../css/Reads.css';
 
-const HowToWearASuit = () => {
+const BlackFriday = () => {
     return(
         <div>
             <Helmet>
@@ -50,4 +50,4 @@ const HowToWearASuit = () => {
     )
 }
 
-export default HowToWearASuit;
+export default BlackFriday;
