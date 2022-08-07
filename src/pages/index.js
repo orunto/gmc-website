@@ -10,6 +10,7 @@ export { default as HowToWearASuit } from './reads/HowToWearASuit';
 export { default as HowToCleanYourSneakers } from './reads/HowToCleanYourSneakers';
 export { default as BlackFriday } from './reads/BlackFriday';
 export { default as FiveAmazingCasualOutfits } from './reads/FiveAmazingCasualOutfits';
+export { default as GuideToMensBoots } from './reads/GuideToMensBoots';
 
 export { default as PrivacyPolicy } from './PrivacyPolicy';
 export { default as TermsOfService } from './TermsOfService';

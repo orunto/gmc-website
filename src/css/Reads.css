@@ -399,6 +399,29 @@
 #vitaminc{
     background-image: url(../images/vitaminc.webp)
 }
+
+/* Guide to mens boots */
+#moctoeboots {
+    background-image: url(../images/moctoeboots.webp);
+}
+#chukaboots {
+    background-image: url(../images/chukkaboots.webp);
+}
+#serviceboots{
+    background-image: url(../images/serviceboots.webp);
+}
+#derbyboots{
+    background-image: url(../images/derbyboots.webp);
+}
+#balmoralboots{
+    background-image: url(../images/balmoral.webp);
+}
+#chelseaboots{
+    background-image: url(../images/chelseaboots.webp);
+}
+#jodhpurboots{
+    background-image: url(../images/jodphurboots.webp);
+}
 @media (max-width: 1000px) {
     .SpotlightRead {
         width: calc(100% - 60px);
