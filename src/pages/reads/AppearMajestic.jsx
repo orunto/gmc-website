@@ -60,8 +60,8 @@ const AppearMajestic = () => {
                 <p>Although this accessory only began gaining more acceptance recently, there is no better way to own your outfit than to use a lapel pin. In the past, they were used by members of a group or an organisation but recently, you can have custom-made lapel pins built with the material of your choice: preferably silver or gold, to slot in on your outfit.</p>
 
                 <h3>7. Cufflinks</h3>
-                <div className='PostPhotoWrapContainer' id='suspenders'>
-                    <div className='PostPhoto'></div>
+                <div className='PostPhotoWrapContainer'>
+                    <div className='PostPhoto'  id='majesticcufflinks'></div>
                     <div className='PostPhotoElaborate'>
                         <p>Just like belts, cufflinks are accessories which serve both functional and decorative purposes. Like buttons too, they come in different colours, shapes. They are mostly worn for formal events, dinner dates and weddings.</p>
                 
