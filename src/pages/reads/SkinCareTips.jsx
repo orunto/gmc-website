@@ -10,7 +10,7 @@ const SkinCareTips = () => {
                 <title>skin care tips for men (best skin care routine for men)</title>
             </Helmet>
             <NavBar/>
-            <PostHeader>
+            <PostHeader id='skincaretipsheader'>
                 <h1>skin care tips for men (best skin care routine for men)</h1>
                 <h4>By Fikayomi</h4>
             </PostHeader>

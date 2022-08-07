@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { NavBar, Footer } from '../../containers';
+import { NavBar, Footer, PostHeader, PostBody, PostPhotoElaborate, PostPhotoWrapContainer, PostPhoto } from '../../containers';
 
 import '../../css/Reads.css';
 
@@ -10,11 +10,11 @@ const FiveOutfitMistakes = () => {
                 <title>5 outfit mistakes you make</title>
             </Helmet>
             <NavBar/>
-            <div className='PostHeader'>
+            <PostHeader id="fiveoutfitmistakesheader">
                 <h1>5 outfit mistakes you make</h1>
                 <h4>By Fikayomi</h4>
-            </div>
-            <div className='PostBody'>
+            </PostHeader>
+            <PostBody>
                 <p>You have finally decided to take your style seriously and make some improvements. You have started buying new clothes, maybe you are following some Instagram or Pinterest pages for style/outfit inspiration. </p>
                 
                 <p>Now the clothes have arrived and you have started putting outfits together but you encounter a problem, something seems off, the clothes don't look great on you. Well, today you'll learn why clothes may not look good on you, how to get past those issues and look better in your clothes.</p>
@@ -30,7 +30,7 @@ const FiveOutfitMistakes = () => {
 
                 <h3>You are looking at the wrong inspiration</h3>
                 <p>Finally and possibly the most important is the source of your inspiration. Many people get outfit inspiration from people that are different from them, It could be height, physic, complexion, occupation and more. Take for example if you are a 5’7 doctor that wants to upgrade your style and you follow the style of a 6’ fashion model (without knowledgeable alterations), his style may not work well for you. That doesn’t mean you can’t be inspired by people different from you, it just means you should be mindful of these differences and adjust them to suit you properly. Check out Gentlemen's Crib on <a href=''>Twitter</a>, <a href=''>Instagram</a>, <a href=''>Facebook</a> and <a href=''>LinkedIn</a> or <a href=''>WhatsApp</a> for your source of inspiration</p>
-            </div>
+            </PostBody>
             <Footer/>
         </div>
     )

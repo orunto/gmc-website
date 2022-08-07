@@ -10,7 +10,7 @@ const BlackFriday = () => {
                 <title>Black Friday Sales - Scam or Not</title>
             </Helmet>
             <NavBar/>
-            <PostHeader>
+            <PostHeader id='blackfridayheader'>
             <h1>Black Friday Sales - Scam or Not</h1>
                 <h4>By Fikayomi</h4>
             </PostHeader>

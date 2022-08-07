@@ -10,7 +10,7 @@ const HowToCleanYourSneakers = () => {
                 <title>How to clean your sneakers (The ultimate guide to sneaker care)</title>
             </Helmet>
             <NavBar/>
-            <PostHeader>
+            <PostHeader id='howtocleanyoursneakersheader'>
             <h1>How to clean your sneakers (The ultimate guide to sneaker care)</h1>
                 <h4>By Fikayomi</h4>
             </PostHeader>

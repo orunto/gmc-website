@@ -10,7 +10,7 @@ const FiveAmazingCasualOutfits = () => {
                 <title>5 Amazing Casual Outfits for Gentlemen</title>
             </Helmet>
             <NavBar/>
-            <PostHeader>
+            <PostHeader id='fiveamazingcasualoutfitsheader'>
             <h1>5 Amazing Casual Outfits for Gentlemen</h1>
                 <h4>By Fikayomi</h4>
             </PostHeader>

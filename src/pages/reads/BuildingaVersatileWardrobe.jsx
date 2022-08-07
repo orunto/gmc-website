@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { NavBar, Footer } from '../../containers';
+import { NavBar, Footer, PostHeader, PostBody, PostPhotoElaborate, PostPhotoWrapContainer, PostPhoto } from '../../containers';
 
 import '../../css/Reads.css';
 
@@ -10,11 +10,11 @@ const BuildingaVersatileWardrobe = () => {
                 <title>Building a versatile and stylish men's wardrobe (Men's style essentials).</title>
             </Helmet>
             <NavBar/>
-            <div className='PostHeader'>
+            <PostHeader id='buildingaversatileheader'>
                 <h1>Building a versatile and stylish men's wardrobe (Men's style essentials).</h1>
                 <h4>By Fikayomi</h4>
-            </div>
-            <div className='PostBody'>
+            </PostHeader>
+            <PostBody>
                 <p>We all know the benefits of looking good. The complements, the opportunities, the respect. You want to start taking your dressing seriously but you don't know where to start, you don't know what tools you need. In this article, you will learn all the basics you need to build a wardrobe that will serve you well and greatly improve your style. Consider this as the foundation of your style journey.</p>
 
                 <h2>Building a versatile and stylish men's wardrobe</h2>
@@ -98,7 +98,7 @@ const BuildingaVersatileWardrobe = () => {
                 </ul>
 
                 <p>With this least you should have all the building blocks for building great outfits. When you have got all the closest essentials, you can grow and add pieces depending on your style and preferences.</p>
-            </div>
+            </PostBody>
             <Footer/>
         </div>
     )

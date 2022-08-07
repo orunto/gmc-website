@@ -10,7 +10,7 @@ const HowToWearASuit = () => {
                 <title>How to wear a suit (6 suit rules every man must follow)</title>
             </Helmet>
             <NavBar/>
-            <PostHeader>
+            <PostHeader id='howtowearasuitheader'>
             <h1>How to wear a suit (6 suit rules every man must follow)</h1>
                 <h4>By Fikayomi</h4>
             </PostHeader>
