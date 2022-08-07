@@ -80,7 +80,7 @@ const GuideToMensBoots = () => {
                 </PostPhotoWrapContainer>
 
 
-                <p>hat's all for now. Now you have all the information you need to pick the perfect boot or boots to suit you and your lifestyle. You should share this with your friends so that they can level up their boot game as well. You can get more fashion tips on our <a href="https://twitter.com/gentlemenscrib">Twitter</a> and <a href="https://instagram.com/gentlemens.crib_?igshid=YmMyMTA2M2Y=">Instagram.</a></p>
+                <p>That's all for now. Now you have all the information you need to pick the perfect boot or boots to suit you and your lifestyle. You should share this with your friends so that they can level up their boot game as well. You can get more fashion tips on our <a href="https://twitter.com/gentlemenscrib">Twitter</a> and <a href="https://instagram.com/gentlemens.crib_?igshid=YmMyMTA2M2Y=">Instagram.</a></p>
             </PostBody>
             <Footer/>
         </div>

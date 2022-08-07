@@ -10,7 +10,7 @@ const SpotlightRead = () => {
                 <h2>GUIDE TO MEN’S BOOTS 
                     <br/>
                 (7 TYPES OF BOOTS FOR EVERY MAN)</h2>
-                <Button><a href='/reads/boots'>Read More</a></Button>
+                <Button><a href='/reads/guidetomensboots'>Read More</a></Button>
             </div>
             <PreviousSpotlight/>
             <RelatedReads/>
