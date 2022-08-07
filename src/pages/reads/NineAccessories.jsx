@@ -21,7 +21,7 @@ const NineAccessories = () => {
 
                 <h3>1. Cufflinks</h3>
                 <PostPhotoWrapContainer>
-                    <PostPhoto></PostPhoto>
+                    <PostPhoto id="accessoriescufflinks"></PostPhoto>
                     <PostPhotoElaborate>
                         <p>Cufflinks are one of the classiest accessories you should own.</p>
 

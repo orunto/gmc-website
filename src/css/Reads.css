@@ -368,6 +368,17 @@
 #majesticcufflinks{
     background-image: url(../images/majesticcufflinks.webp);
 }
+
+/* Nine Accssories */
+#accessoriescufflinks {
+    background-image: url(../images/accessoriescufflinks.webp);
+}
+#sunglasses {
+    background-image: url(../images/accessoriessunglasses.webp);
+}
+#suspenders {
+    background-image: url(../images/accessoriessuspenders.webp);
+}
 @media (max-width: 1000px) {
     .SpotlightRead {
         width: calc(100% - 60px);
