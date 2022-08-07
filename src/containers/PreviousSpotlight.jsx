@@ -2,7 +2,7 @@ import '../css/Reads.css';
 
 const PreviousSpotlight = () => {
     return(
-        <a href=''>
+        <a href='/appearmajestic'>
             <div className='PreviousSpotlight'>
                 <h3>Previous Spotlight</h3>
                 <div className='PreviousSpotlightImage'></div>

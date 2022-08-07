@@ -24,14 +24,14 @@ const OlderPosts = () => {
                     <h5>By Fikayomi</h5>
                 </OlderPostsItem>
 
-
-                <OlderPostsItem>
-                    <div className='OlderPostsItemImage' id='skincaretips'></div>
-                    <h3>Skin Care Tips For Men (Best Skincare Routine For Men).</h3>
-                    <p>In this article I'll be sharing with you a very simple skincare routine as well as some tips that will help you to improve and maintain great skin.</p>
-                    <h5>By Fikayomi</h5>
-                </OlderPostsItem>
-
+                <a href='/skincaretips'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='skincaretips'></div>
+                        <h3>Skin Care Tips For Men (Best Skincare Routine For Men).</h3>
+                        <p>In this article I'll be sharing with you a very simple skincare routine as well as some tips that will help you to improve and maintain great skin.</p>
+                        <h5>By Fikayomi</h5>
+                    </OlderPostsItem>
+                </a>
 
                 <a href='/fiveoutfitmistakes'>
                     <OlderPostsItem>

@@ -15,7 +15,7 @@ const RelatedReads = () => {
 
                 <RelatedReadsItem>
                     <div className='RelatedReadsItemImage' id='buildingaversatile'></div>
-                    <a href='/'>Building a versatile and stylish men's wardrobe (Men's style essentials).</a>
+                    <a href='/buildingaversatilewardrobe'>Building a versatile and stylish men's wardrobe (Men's style essentials).</a>
                 </RelatedReadsItem>
             </div>
         </div>
