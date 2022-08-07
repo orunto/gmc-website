@@ -8,13 +8,13 @@ const RelatedReads = () => {
             <div className='RelatedReadsItemContainer'>
                 <RelatedReadsItem>
                     <div className='RelatedReadsItemImage' id='howtowearasuit'>
-                        <a href='/'>How to wear a suit (6 suit rules every man must follow)</a>
+                        <a href='/howtowearasuit'>How to wear a suit (6 suit rules every man must follow)</a>
                     </div>
-                    <a href='/'>How to wear a suit (6 suit rules every man must follow)</a>
+                    <a href='/howtowearasuit'>How to wear a suit (6 suit rules every man must follow)</a>
                 </RelatedReadsItem>
 
                 <RelatedReadsItem>
-                    <div className='RelatedReadsItemImage' id='buildingaversatile'></div>
+                    <a href='/buildingaversatilewardrobe'><div className='RelatedReadsItemImage' id='buildingaversatile'></div></a>
                     <a href='/buildingaversatilewardrobe'>Building a versatile and stylish men's wardrobe (Men's style essentials).</a>
                 </RelatedReadsItem>
             </div>

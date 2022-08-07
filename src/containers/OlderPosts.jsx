@@ -17,12 +17,14 @@ const OlderPosts = () => {
                     </OlderPostsItem>
                 </a>
 
-                <OlderPostsItem>
-                    <div className='OlderPostsItemImage' id='howtowearasuit'></div>
-                    <h3>How to wear a suit (6 suit rules every man must follow)</h3>
-                    <p>We at gentlemen's crib believe that every man should own at least one suit and should have the knowledge on how to wear it properly.</p>
-                    <h5>By Fikayomi</h5>
-                </OlderPostsItem>
+                <a href='/howtowearasuit'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='howtowearasuit'></div>
+                        <h3>How to wear a suit (6 suit rules every man must follow)</h3>
+                        <p>We at gentlemen's crib believe that every man should own at least one suit and should have the knowledge on how to wear it properly.</p>
+                        <h5>By Fikayomi</h5>
+                    </OlderPostsItem>
+                </a>
 
                 <a href='/skincaretips'>
                     <OlderPostsItem>
