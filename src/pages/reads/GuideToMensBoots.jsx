@@ -10,7 +10,7 @@ const GuideToMensBoots = () => {
                 <title>Guide To Men's Boots (7 Types of Boots For Every Man)</title>
             </Helmet>
             <NavBar/>
-            <PostHeader id='howtowearasuitheader'>
+            <PostHeader id='guidetomensbootsheader'>
             <h1>Guide To Men's Boots (7 Types of Boots For Every Man)</h1>
                 <h4>By Fikayomi</h4>
             </PostHeader>
