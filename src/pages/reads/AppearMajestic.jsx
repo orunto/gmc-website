@@ -36,10 +36,10 @@ const AppearMajestic = () => {
 
                 <h3>2. Wristwatch</h3>
                 <div className='PostPhotoWrapContainer'>
-                    <div className='PostPhoto' id='majesticwristwatch'></div>
                     <div className='PostPhotoElaborate'>
                         <p>When it comes to accessories even for outfits that are not necessarily formal, wrist watches are the easiest piece you can add. Although no one needs one to tell the time, their aesthetic value and classic style are hard to give up on. Ideally, it is expected that you have more than one option so that you can always switch to one that fits your outfit better.</p>
                     </div>
+                    <div className='PostPhoto' id='majesticwristwatch'></div>
                 </div>
 
                 <h3>3. Pocket Square</h3>

@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Company, Home, NineAccessories, PrivacyPolicy, Reads, TermsOfService } from './pages';
+import { AppearMajestic, Company, Home, NineAccessories, PrivacyPolicy, Reads, SkinCareTips, TermsOfService } from './pages';
 import { FiveOutfitMistakes } from './pages';
 import './App.css';
 
@@ -11,8 +11,8 @@ function App() {
           <Route path='/' element={<Reads/>} />
           <Route path='/fiveoutfitmistakes' element={<FiveOutfitMistakes/>} />
           <Route path='/nineaccessories' element={<NineAccessories/>} />
-          <Route path='/' element={<Reads/>} />
-          <Route path='/' element={<Reads/>} />
+          <Route path='/appearmajestic' element={<AppearMajestic/>} />
+          <Route path='/skincaretips' element={<SkinCareTips/>} />
           <Route path='/' element={<Reads/>} />
           <Route path='/' element={<Reads/>} />
           <Route path='/' element={<Reads/>} />
