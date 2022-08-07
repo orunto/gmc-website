@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Company, Home, PrivacyPolicy, Reads, TermsOfService } from './pages';
+import { Company, Home, NineAccessories, PrivacyPolicy, Reads, TermsOfService } from './pages';
 import { FiveOutfitMistakes } from './pages';
 import './App.css';
 
@@ -10,7 +10,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Reads/>} />
           <Route path='/fiveoutfitmistakes' element={<FiveOutfitMistakes/>} />
-          <Route path='/' element={<Reads/>} />
+          <Route path='/nineaccessories' element={<NineAccessories/>} />
           <Route path='/' element={<Reads/>} />
           <Route path='/' element={<Reads/>} />
           <Route path='/' element={<Reads/>} />

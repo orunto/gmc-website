@@ -7,7 +7,7 @@ const FiveOutfitMistakes = () => {
     return(
         <div>
             <Helmet>
-                <title>5 outfit mistakes</title>
+                <title>5 outfit mistakes you make</title>
             </Helmet>
             <NavBar/>
             <div className='PostHeader'>

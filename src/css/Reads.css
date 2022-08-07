@@ -274,6 +274,7 @@
 
 .PostBody p {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .PostBody a {
@@ -283,6 +284,22 @@
 .PostBody ul {
     font-size: inherit;
     font-family: inherit;
+}
+
+.PostPhotoWrapContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.PostPhoto {
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.PostPhotoElaborate {
+    width: calc(100% - 550px);
 }
 
 @media (max-width: 1000px) {
