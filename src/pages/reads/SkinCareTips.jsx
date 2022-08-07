@@ -7,7 +7,7 @@ const SkinCareTips = () => {
     return(
         <div>
             <Helmet>
-                <title>skin care tips for men (best skin care routine for men)</title>
+                <title>Skin Care Tips For Men (Best Skin Care Routine For Men)</title>
             </Helmet>
             <NavBar/>
             <PostHeader id='skincaretipsheader'>

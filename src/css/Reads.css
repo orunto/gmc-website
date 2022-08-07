@@ -379,6 +379,26 @@
 #suspenders {
     background-image: url(../images/accessoriessuspenders.webp);
 }
+
+/* Skin Care Tips */
+#washyourface {
+    background-image: url(../images/washyourface.webp);
+}
+#moisturize{
+    background-image: url(../images/moisturize.webp);
+}
+#stoptouchingyourface{
+    background-image: url(../images/stoptouchingyourface.webp);
+}
+#drinkwater{
+    background-image: url(../images/drinkwater.webp);
+}
+#changeyourpillowcase{
+    background-image: url(../images/chanegyourpillowcase.webp);
+}
+#vitaminc{
+    background-image: url(../images/vitaminc.webp)
+}
 @media (max-width: 1000px) {
     .SpotlightRead {
         width: calc(100% - 60px);
