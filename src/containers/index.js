@@ -13,4 +13,10 @@ export { default as RelatedReads } from './RelatedReads';
 export { default as OlderPosts } from './OlderPosts';
 export { default as OlderPostsItem } from './OlderPostsItem';
 
+export { default as PostHeader } from './PostHeader';
+export { default as PostBody } from './PostBody';
+export { default as PostPhotoWrapContainer } from './PostPhotoWrapContainer';
+export { default as PostPhoto } from './PostPhoto';
+export { default as PostPhotoElaborate } from './PostPhotoElaborate';
+
 export { default as Footer } from './Footer';

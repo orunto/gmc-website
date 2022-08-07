@@ -42,13 +42,14 @@ const OlderPosts = () => {
                     </OlderPostsItem>
                 </a>
 
-
-                <OlderPostsItem>
-                    <div className='OlderPostsItemImage' id='buildingaversatile'></div>
-                    <h3>Building a versatile and stylish men's wardrobe. Men's style essentials</h3>
-                    <p>In this article, you will learn all the basics you need to build a wardrobe that will serve you well and greatly improve your style.</p>
-                    <h5>By Fikayomi</h5>
-                </OlderPostsItem>
+                <a href='/buildingaversatlewardrobe'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='buildingaversatile'></div>
+                        <h3>Building a versatile and stylish men's wardrobe. Men's style essentials</h3>
+                        <p>In this article, you will learn all the basics you need to build a wardrobe that will serve you well and greatly improve your style.</p>
+                        <h5>By Fikayomi</h5>
+                    </OlderPostsItem>
+                </a>
 
 
                 <OlderPostsItem>
