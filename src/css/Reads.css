@@ -344,12 +344,30 @@
     width: 500px;
     height: 300px;
     background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .PostPhotoElaborate {
     width: calc(100% - 550px);
 }
 
+
+/* POSTS IMAGES */
+/* Appear majestic */
+#majestictieclip {
+    background-image: url(../images/majestictieclips.webp);
+}
+#majesticwristwatch{
+    background-image: url(../images/majesticwristwatch.webp);
+}
+#majesticpocketsquare{
+    background-image: url(../images/majesticpocketsquare.webp);
+}
+#majesticcufflinks{
+    background-image: url(../images/majesticcufflinks.webp);
+}
 @media (max-width: 1000px) {
     .SpotlightRead {
         width: calc(100% - 60px);
