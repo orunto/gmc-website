@@ -12,7 +12,7 @@ const NineAccessories = () => {
             <NavBar/>
             <PostHeader id='nineaccessoriesheader'>
                 <h1>9 Accessories Every Man Should Have</h1>
-                <h4>By Fikayomi</h4>
+                <h4>By Stephen</h4>
             </PostHeader>
             <PostBody>
                 <p>There are certain accessories every man should have no matter how old or young he is and regardless of his occupation and lifestyle. Some of these accessories might be used as scarcely as once in three months, however, when the need to use them arrives, he will not need to worry and will only need to slide into them.</p>

@@ -12,7 +12,7 @@ const AppearMajestic = () => {
             <NavBar/>
             <PostHeader id='appearmajesticheader'>
                 <h1>7 Formal Accessories To Make You Appear Majestic</h1>
-                <h4>By Fikayomi</h4>
+                <h4>By Stephen</h4>
             </PostHeader>
             <PostBody>
                 <p>Looking your very best in a suit is a science because it involves accurately measured shoulder lengths, sleeves and waist among others, as well as one of the purest forms of art because it deals with aesthetics and expresses creativity in its most authentic form.</p>

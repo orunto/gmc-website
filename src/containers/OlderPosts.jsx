@@ -13,7 +13,7 @@ const OlderPosts = () => {
                         <div className='OlderPostsItemImage' id='nineaccessories'></div>
                         <h3>9 Accessories Every Man Should Have</h3>
                         <p>In this article, we will be sharing with you the 9 accessories every man should have regardless of their age, occupation and lifestyle</p>
-                        <h5>By Fikayomi</h5>
+                        <h5>By Stephen</h5>
                     </OlderPostsItem>
                 </a>
 
