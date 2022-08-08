@@ -552,4 +552,24 @@
     .PostHeader h1 {
         width: 100%;
     }
+
+    .PostBody {
+        padding: 0 30px;
+    }
+
+    .PostBody ul {
+        font-size: 15px;
+    }
+    .PostPhotoWrapContainer {
+        display: block;
+        width: calc(100%);
+    }
+
+    .PostPhoto {
+        width: 100%;
+    }
+
+    .PostPhotoElaborate {
+        width: 100%;
+    }
 }
