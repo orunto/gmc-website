@@ -54,7 +54,7 @@ function Fold () {
 const NavBar = () => {
     return(
         <nav id="nav">
-            <a id="logowhite" href='/'><img src={Logo} alt="Logo"/></a>
+            <a id="logowhite" href='https://www.gentlemenscrib.com'><img src={Logo} alt="Logo"/></a>
             <a href='https://www.gentlemenscrib.com'><img src={LogoBlack} id="logoblack" alt="Logo"/></a>
             <div className='MobileNavBar'>
                 <img src={LogoMobile} alt="Logo" id="mobile"/>
