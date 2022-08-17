@@ -164,6 +164,12 @@
     cursor: pointer;
 }
 
+#waitlisth2 {
+    font-size: 48px;
+    font-family: 'Rische';
+    font-weight: bolder;
+}
+
 /* FOOTER */
 footer {
     width: calc(100% - 140px);
@@ -367,6 +373,11 @@ span a {
         width: max-content;
     }
 
+    #waitlisth2 {
+        font-size: 24px;
+        font-family: 'Rische';
+        font-weight: bolder;
+    }
 
 
     /* FOOTER */
