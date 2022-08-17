@@ -15,7 +15,7 @@ const WaitlistForm = () => {
                     id="waitlisth2"
                 />
                 <input type="hidden" name="_feedback.dark" value="true" />
-                <input id="tel" name="Phone Number" type='tel' placeholder="000-0000-0000"/>
+                <input id="tel" name="Phone Number" type='tel' placeholder="000-0000-0000" required/>
                 <input id="submitbtn" type='submit' name='submit' value="Join the Waitlist"/>
             </form>
         </div>
