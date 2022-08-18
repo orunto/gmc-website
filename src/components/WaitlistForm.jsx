@@ -1,6 +1,6 @@
 const WaitlistForm = () => {
     return(
-        <div className='WaitlistForm'>
+        <div className='WaitlistForm' id="waitlist">
             <form action='https://submit-form.com/KSHU6qfv'>
                 <input
                     type="hidden"

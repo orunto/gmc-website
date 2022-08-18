@@ -12,7 +12,7 @@ const Products = () => {
                     <h3>Learn fashion and stay up to date</h3>
                     <div className='SummaryPhoto' id="learnfashion"></div>
                     <p>We are building a community for men to learn how to look good. Reads, videos, direct help from someone you can talk to, outfit planning help, shopping assistance. Everything you need to look good is now available to you, for free.</p>
-                    <Button>Get Started</Button>
+                    <a href='https://wa.me/2348027132741'><Button>Get Started</Button></a>
                 </div>
                 <div className='SummaryPhoto' id="learnfashion"></div>
             </ProductSummary>
@@ -63,7 +63,7 @@ const Products = () => {
                     <h3>Mobile app</h3>
                     <div className='SummaryPhotoRight' id="mobileapp"></div>
                     <p>We are building a mobile app that allows you to plan your outfits in advance, read articles, watch helpful videos, get free help from fashion experts on your outfits, find stores to buy from at best quality, affordable prices and with 100% guarantee.</p>
-                    <Button>Join Our Waitlist</Button>
+                    <a href='#waitlist'><Button>Join Our Waitlist</Button></a>
                 </div>
             </ProductSummary>
         </div>
