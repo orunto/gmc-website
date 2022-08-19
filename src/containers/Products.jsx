@@ -63,7 +63,7 @@ const Products = () => {
                     <h3>Mobile app</h3>
                     <div className='SummaryPhotoRight' id="mobileapp"></div>
                     <p>We are building a mobile app that allows you to plan your outfits in advance, read articles, watch helpful videos, get free help from fashion experts on your outfits, find stores to buy from at best quality, affordable prices and with 100% guarantee.</p>
-                    <a href='#waitlist'><Button>Join Our Waitlist</Button></a>
+                    <a href='#tel'><Button>Join Our Waitlist</Button></a>
                 </div>
             </ProductSummary>
         </div>

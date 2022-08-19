@@ -50,9 +50,10 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     list-style-type: none;
     margin: 18px 0px;
+    transition: 0.5s;
 }
 
 nav ul li {
@@ -73,6 +74,19 @@ nav ul li svg path {
 
 nav ul li svg:hover{
     transform: rotate(180deg)
+}
+
+nav ul ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    margin: 0;
+}
+
+#productsubpages {
+    display: none;
 }
 
 nav .Button {
