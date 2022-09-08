@@ -24,34 +24,15 @@ function App() {
     );
   }
 
-  else if (window.location.host.split(".")[0] == "company") {
-    return (
-      <Router>
-        <Company/>
-      </Router>
-    );
-  }
-
-  else if (window.location.host.split(".")[0] == "terms") {
-    return (
-      <Router>
-        <TermsOfService/>
-      </Router>
-    );
-  }
-
-  else if (window.location.host.split(".")[0] == "privacy") {
-    return (
-      <Router>
-        <PrivacyPolicy/>
-      </Router>
-    );
-  }
-
   else {
     return (
         <Router> 
-          <Home/>
+          <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='/company' element={<Company/>} />
+            <Route path='/terms' element={<TermsOfService/>} />
+            <Route path='/privacy' element={<PrivacyPolicy/>} />
+          </Routes>
         </Router>
       );
   }
