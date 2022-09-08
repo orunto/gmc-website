@@ -67,7 +67,7 @@ const NavBar = () => {
                         <a href='#tel'><li>Mobile App</li></a>
                     </ul>
                 </ul>
-                <li><a href='https://gentlemenscrib.com/company'>Company</a></li>
+                <li><a href='https://www.gentlemenscrib.com/company'>Company</a></li>
                 <li>Support</li>
                 <li><a href='https://reads.gentlemenscrib.com'>Reads</a></li>
             </ul>

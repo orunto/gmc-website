@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='FooterLinksContainer'>
                 <div className="FooterLinks">
                     <p>Company</p>
-                    <a href='https://company.gentlemenscrib.com'>About Us</a>
+                    <a href='https://www.gentlemenscrib.com/company'>About Us</a>
                     <a href='https://reads.gentlemenscrib.com'>Reads</a>
                     <a href='#'>FAQs</a>
                 </div>
@@ -27,8 +27,8 @@ const Footer = () => {
 
                 <div className="FooterLinks">
                     <p>Legal</p>
-                    <a href='https://privacy.gentlemenscrib.com'>Cookies and Privacy Policy</a>
-                    <a href='https://terms.gentlemenscrib.com'>Terms of Service</a>
+                    <a href='https://www.gentlemenscrib.com/privacy'>Cookies and Privacy Policy</a>
+                    <a href='https://www.gentlemenscrib.com/terms'>Terms of Service</a>
                 </div>
 
                 <div className="FooterLinks" id="footersocialscontainer">
@@ -50,7 +50,7 @@ const Footer = () => {
             <div className='EndCredits'>
                 <span>© 2022 Gentlemen's Crib. All rights reserved</span>
                 <a href='https://www.gentlemenscrib.com'><img src={Logo} alt="Logo"/></a>
-                <span><a href='https://terms.gentlemenscrib.com'>Terms of Service</a> | <a href='https://privacy.gentlemenscrib.com'>Privacy Policy</a></span>
+                <span><a href='https://www.gentlemenscrib.com/terms'>Terms of Service</a> | <a href='https://www.gentlemenscrib.com/privacy'>Privacy Policy</a></span>
             </div>
         </footer>
     )
