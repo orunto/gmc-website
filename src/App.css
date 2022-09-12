@@ -8,7 +8,7 @@ a{
   text-decoration: none;
 }
 h1 {
-  font-family: 'Rische';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 800;
   font-size: 64px;
@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   margin: 0;
-  font-family: 'Rische';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -75,7 +75,7 @@ p {
 
 @media (max-width: 1000px) {
   h1 {
-    font-family: 'Rische';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bolder;
     font-size: 48px;
@@ -87,7 +87,7 @@ p {
   }
 
   h2 {
-    font-family: 'Rische';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
