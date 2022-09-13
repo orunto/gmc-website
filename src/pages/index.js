@@ -12,6 +12,8 @@ export { default as BlackFriday } from './reads/BlackFriday';
 export { default as FiveAmazingCasualOutfits } from './reads/FiveAmazingCasualOutfits';
 export { default as GuideToMensBoots } from './reads/GuideToMensBoots';
 
+export { default as StarterPacks } from './StarterPacks';
+
 export { default as PrivacyPolicy } from './PrivacyPolicy';
 export { default as TermsOfService } from './TermsOfService';
 export { default as Company } from './Company';

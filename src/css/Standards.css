@@ -1,0 +1,110 @@
+.StandardHeader {
+    margin: 0 0 100px 0;
+    width: 100vw;
+    padding-top: 282px;
+    height: calc(805px - 282px);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/StarterPacks.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.StandardHeader h1 {
+    position: relative;
+    margin: 0 0 24px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.StandardHeader h4 {
+    position: relative;
+    margin-bottom: 100px;
+    /* top: 388px; */
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+
+}
+
+.StandardHeader .Button {
+    position: relative;
+    margin: 0 auto;
+    /* top: 470px;
+    left: calc(50% - 87.5px); */
+}
+
+.StarterPacks .Products {
+    margin-bottom: 150px;
+}
+
+.StarterPacks .SummaryPhoto {
+    height: 300px;
+}
+
+.StarterPacks .SummaryPhotoRight {
+    height: 300px;
+}
+
+#starterpackproducts .Button {
+    margin: 0 auto;
+}
+
+.PersonalStylist {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 140px);
+    margin: 100px auto;
+}
+
+.PersonalStylist .ProductSummary{
+    width: 750px;
+}
+
+.PersonalStylist .ProductSummary p{
+    width: 100%;
+}
+.PersonalStylistPhoto {
+    width: 476px;
+    height: 601px;
+    background-image: url(../images/PersonalStylist.webp);
+    margin-right: 100px;
+    background-color: aqua;
+}
+
+#everythingyouneed{
+    background-image: url(../images/EverythingYouNeed.webp);
+}
+#savecost{
+    background-image: url(../images/SaveCost.webp);
+}
+
+#corporate{
+    background-image: url(../images/Corporate.webp);
+}
+#smartcasual{
+    background-image: url(../images/SmartCasual.webp);
+}
+#streetwear{
+    background-image: url(../images/Streetwear.webp);
+}
+#techbro {
+    background-image: url(../images/TechBro.webp);
+}
+#student{
+    background-image: url(../images/Student.webp);
+}
+#athleisure{
+    background-image: url(../images/Athleisure.webp);
+}
+#traditional{
+    background-image: url(../images/Traditional.webp);
+}
+#fashionista{
+    background-image: url(../images/Fashionista.webp);
+}
+#custommade{
+    background-image: url(../images/CustomMade.webp);
+}
