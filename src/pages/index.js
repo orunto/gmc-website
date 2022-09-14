@@ -13,6 +13,7 @@ export { default as FiveAmazingCasualOutfits } from './reads/FiveAmazingCasualOu
 export { default as GuideToMensBoots } from './reads/GuideToMensBoots';
 
 export { default as StarterPacks } from './StarterPacks';
+export { default as Community } from './Community';
 
 export { default as PrivacyPolicy } from './PrivacyPolicy';
 export { default as TermsOfService } from './TermsOfService';

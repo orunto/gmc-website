@@ -2,7 +2,7 @@ import '../css/Components.css';
 
 const Button = (props) => {
     return(
-        <div className='Button'>
+        <div className='Button' id={props.id}>
             {props.children}
         </div>
     )

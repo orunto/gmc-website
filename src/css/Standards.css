@@ -108,3 +108,60 @@
 #custommade{
     background-image: url(../images/CustomMade.webp);
 }
+
+
+.Community {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Community .StandardHeader {
+    background-image: url(../images/CommunityHero.webp);
+}
+
+.CommunityButtonContainer{
+    position: fixed;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    left: 70px;
+    width: calc(100% - 140px);
+}
+
+#instabutton{
+    box-shadow: 0px 10px 20px rgba(225, 48, 108, 0.07);
+    background: #E1306C;
+}
+#twitterbutton{
+    background: #1D9BF0;
+}
+#facebookbutton{
+    background: #1778F2;
+}
+#linkedinbutton{
+    background-color: #0A66C2;
+}
+#whatsappbutton{
+    background-color: #28D146;
+}
+
+#instabutton:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(225, 48, 108, 0.25);
+}
+#twitterbutton:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.25);
+}
+#facebookbutton:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.25)
+}
+#linkedinbutton:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.25);
+}
+#whatsappbutton:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.25);
+}
