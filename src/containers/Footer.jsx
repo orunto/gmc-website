@@ -42,7 +42,7 @@ const Footer = () => {
                         <a href='https://www.linkedin.com/company/gentlemens-crib/' target='_blank' rel="noreferrer">Our LinkedIn<FooterLinkedInIco/></a>
                     </div>
                     <span>support@gentlemenscrib.com</span>
-                    <span>Block 2, Flat 6, Baba Omojola Estate, Bagada, Lagos</span>
+                    <span>Block 2, Flat 6, Baba Omojola Estate, Gbagada, Lagos</span>
                 </div>
             </div>
 
