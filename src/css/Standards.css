@@ -191,6 +191,40 @@
 
 
 @media (max-width: 1000px) {
+
+    .StarterPacks .SummaryPhoto {
+        height: 150px;
+    }
+    
+    .StarterPacks .SummaryPhotoRight {
+        height: 150px;
+    }
+
+    .PersonalStylist {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(100% - 60px);
+        margin: 100px auto;
+    }
+    
+    .PersonalStylist .ProductSummary{
+        width: 100%;
+    }
+    
+    .PersonalStylist .ProductSummary p{
+        width: 100%;
+    }
+    .PersonalStylistPhoto {
+        width: 100%;
+        height: 601px;
+        background-image: url(../images/PersonalStylist.webp);
+        margin: 0 auto 30px auto;
+        background-color: aqua;
+    }
+
+
     .SkinCare {
         height: 100vh;
         overflow: hidden;
