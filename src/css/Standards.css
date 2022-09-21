@@ -165,3 +165,26 @@
     transform: scale(1.1);
     box-shadow: 0px 10px 20px rgba(29, 155, 240, 0.25);
 }
+
+.SkinCare {
+    height: 100vh;
+    overflow: hidden;
+}
+.SkinCare .StandardHeader {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/SkinCareHeader.webp);   
+    padding-top: 200px;
+    height: 100%;
+}
+
+.SkinCare h1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SkinCare h4 {
+    margin-top: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}

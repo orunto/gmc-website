@@ -20,9 +20,10 @@ const Footer = () => {
 
                 <div className="FooterLinks">
                     <p>Products</p>
-                    <a href='https://starter.gentlemenscrib.com'>Starter Packs</a>
-                    <a href='https://wa.me/2348027132741'>Community</a>
-                    <a href='#tel'>Mobile App</a>
+                    <a href='https://www.gentlemenscrib.com/starterpacks'>Starter Packs</a>
+                    <a href='https://www.gentlemenscrib.com/community'>Community</a>
+                    <a href='https://www.gentlemenscrib.com/mobileapp'>Mobile App</a>
+                    <a href='https://www.gentlemenscrib.com/skincare'>Skin Care</a>
                 </div>
 
                 <div className="FooterLinks">
