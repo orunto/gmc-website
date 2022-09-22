@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { AppearMajestic, BlackFriday, BuildingaVersatileWardrobe, Community, Company, FiveAmazingCasualOutfits, GuideToMensBoots, Home, HowToCleanYourSneakers, HowToWearASuit, NineAccessories, PrivacyPolicy, Reads, SkinCare, SkinCareTips, StarterPacks, TermsOfService } from './pages';
+import { AppearMajestic, BlackFriday, BuildingaVersatileWardrobe, Community, Company, FiveAmazingCasualOutfits, GuideToMensBoots, Home, HowToCleanYourSneakers, HowToWearASuit, NineAccessories, PrivacyPolicy, Reads, SkinCare, SkinCareTips, StarterPacks, Support, TermsOfService } from './pages';
 import { FiveOutfitMistakes } from './pages';
 import './App.css';
 
@@ -35,6 +35,7 @@ function App() {
             <Route path='/starterpacks' element={<StarterPacks/>} />
             <Route path='/community' element={<Community/>} />
             <Route path='/skincare' element={<SkinCare/>} />
+            <Route path='/support' element={<Support/>} />
           </Routes>
         </Router>
       );

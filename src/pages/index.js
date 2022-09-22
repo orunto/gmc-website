@@ -15,6 +15,8 @@ export { default as GuideToMensBoots } from './reads/GuideToMensBoots';
 export { default as StarterPacks } from './StarterPacks';
 export { default as SkinCare } from './SkinCare';
 export { default as Community } from './Community';
+export { default as MobileApp } from './MobileApp';
+export { default as Support } from './Support';
 
 export { default as PrivacyPolicy } from './PrivacyPolicy';
 export { default as TermsOfService } from './TermsOfService';

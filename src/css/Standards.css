@@ -189,6 +189,80 @@
     margin-right: auto;
 }
 
+.Support nav ul li {
+    color: #18191F;
+}
+
+.Support #logoblack {
+    display: block;
+}
+
+.Support #logowhite {
+    display: none;
+}
+
+.Support .StandardHeader{
+    background: none;
+    color: #18191F;
+    padding-top:200px;
+}
+
+.Support h1  {
+    color: #18191F;
+}
+
+.Support h4  {
+    color: #18191F;
+    margin-bottom: 100px;
+}
+.SupportFieldContainer {
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.RegularField {
+    padding: 18px 36px;
+    border-radius: 35px;
+    color: #18191F;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    border: 2px solid #E28F1D;
+    outline: none;
+    width: 324px;
+}
+
+.SupportFieldContainer select {
+    width: 400px;
+}
+
+.MessageField {
+    border-radius: 35px;
+    color: #18191F;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    border: 2px solid #E28F1D;
+    outline: none;
+    text-align: top;
+    padding: 18px 36px;
+    width: 828px;
+    height: 200px;
+}
+
+.SubmitField {
+    border-radius: 35px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    background-color: #E28F1D;
+    border: 2px solid #E28F1D;
+    outline: none;
+    text-align: top;
+    padding: 18px 36px;
+    width: 828px;
+}
 
 @media (max-width: 1000px) {
 
