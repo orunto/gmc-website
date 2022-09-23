@@ -2,9 +2,9 @@ import '../css/Components.css';
 
 const Button = (props) => {
     return(
-        <div className='Button' id={props.id}>
+        <button className='Button' id={props.id} type={props.type}>
             {props.children}
-        </div>
+        </button>
     )
 }
 

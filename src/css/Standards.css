@@ -204,6 +204,7 @@
 .Support .StandardHeader{
     background: none;
     color: #18191F;
+    height: max-content;
     padding-top:200px;
 }
 

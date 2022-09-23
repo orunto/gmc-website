@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet';
+import { Button } from '../components';
 import { Footer, NavBar } from '../containers';
 
 import '../css/Reads.css';
@@ -14,17 +15,29 @@ const Support = () => {
             <div className='StandardHeader'>
                 <h1>We’re Here to Support You</h1>
                 <h4>So get in touch</h4>
-                <form className='SupportFieldContainer'>
+                <form className='SupportFieldContainer'action='https://submit-form.com/ZcTzSW3f'><input
+                    type="hidden"
+                    name="_feedback.success.title"
+                    value="Your message has been recieved!"
+                    id="waitlisth2"
+                />
+                <input
+                    type="hidden"
+                    name="_feedback.success.message"
+                    value="We'll follow up with you shortly"
+                    id="waitlisth2"
+                />
                     <input className='RegularField' type='text' placeholder='Name'/>
                     <input className='RegularField' type='email' placeholder='Email Address'/>
                     <input className='RegularField' type='tel' placeholder='Phone Number'/>
                     <select className='RegularField'>
-                        <option>Starter Packs</option>
-                        <option>Our app</option>
-                        <option>Skin Care</option>
+                        <option value="" disabled selected>Select a topic</option>
+                        <option value="starter packs">Starter Packs</option>
+                        <option value="our app">Our app</option>
+                        <option value="skin care">Skin Care</option>
                     </select>
                     <input className='MessageField' type='text' placeholder='Message'/>
-                    <input className='SubmitField' type='submit' placeholder='Send'/>
+                    <Button type='submit'>Send</Button>
                 </form>
             </div>
             <Footer/>
