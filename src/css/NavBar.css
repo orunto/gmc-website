@@ -154,6 +154,15 @@ nav .Button {
         margin: 30px 0;
     }
 
+    nav ul ul {
+        align-items: flex-end;
+        width: max-content;
+    }
+
+    nav ul ul ul li {
+        font-size: 16px;
+    }
+
     nav ul li {
         text-align: right;
         margin-right: 0;

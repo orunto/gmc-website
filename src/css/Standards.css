@@ -347,7 +347,7 @@
         background: none;
         color: #18191F;
         height: max-content;
-        padding-top:200px;
+        padding-top: 150px;
     }
     
     .Support h1  {
@@ -363,7 +363,7 @@
         width: calc(100% - 60px);
         display: flex;
         flex-wrap: wrap;
-        gap: 100px;
+        gap: 50px;
     }
 
     .Support #logoblack {

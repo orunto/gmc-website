@@ -32,19 +32,22 @@ function Fold () {
 
 // FOR WHEN I ADD IN THE PRODUCTS DROPDOWN
 function ProductDrop () {   
+    const nav = document.querySelector("nav");
     // const productdropdown = document.querySelector("productdropdown");
     const productsubpages = document.querySelector("#productsubpages");
     // const cancel = document.querySelector("#cancel");
 
-    // nav.style.height = "380px";
+    nav.style.height = "580px";
     productsubpages.style.display = "flex";
     // cancel.style.display = "block";
 }
 
 function ProductFold () {
+    const nav = document.querySelector("nav");
     // const productdropdown = document.querySelector("productdropdown");
     const productsubpages = document.querySelector("#productsubpages");
 
+    nav.style.height = "380px";
     productsubpages.style.display = "none";
 }
 
@@ -60,12 +63,12 @@ const NavBar = () => {
             </div>
             <ul>
                 <ul>
-                    <li onMouseEnter={ProductDrop}>Products <ProductDropdown/></li>
+                    <li onMouseEnter={ProductDrop} onClick={ProductDrop}>Products <ProductDropdown/></li>
                     <ul id='productsubpages'  onMouseLeave={ProductFold}>
-                        <a href='https://www.gentlemenscrib.com/starterpacks'><li>Starter Packs</li></a>
-                        <a href='https://www.gentlemenscrib.com/community'><li>Community</li></a>
-                        <a href='https://www.gentlemenscrib.com/mobileapp'><li>Mobile App</li></a>
-                        <a href='https://www.gentlemenscrib.com/skincare'><li>Skin Care</li></a>
+                        <a onClick={ProductFold} href='https://www.gentlemenscrib.com/starterpacks'><li>Starter Packs</li></a>
+                        <a onClick={ProductFold} href='https://www.gentlemenscrib.com/community'><li>Community</li></a>
+                        <a onClick={ProductFold} href='https://www.gentlemenscrib.com/mobileapp'><li>Mobile App</li></a>
+                        <a onClick={ProductFold} href='https://www.gentlemenscrib.com/skincare'><li>Skin Care</li></a>
                     </ul>
                 </ul>
                 <li><a href='https://www.gentlemenscrib.com/company'>Company</a></li>
