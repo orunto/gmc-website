@@ -11,6 +11,7 @@ export { default as HowToCleanYourSneakers } from './reads/HowToCleanYourSneaker
 export { default as BlackFriday } from './reads/BlackFriday';
 export { default as FiveAmazingCasualOutfits } from './reads/FiveAmazingCasualOutfits';
 export { default as GuideToMensBoots } from './reads/GuideToMensBoots';
+export { default as HowToCareForYourClothes } from './reads/HowToCareForYourClothes';
 
 export { default as StarterPacks } from './StarterPacks';
 export { default as SkinCare } from './SkinCare';
