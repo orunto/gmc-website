@@ -12,7 +12,7 @@ const GuideToMensBoots = () => {
             <NavBar/>
             <PostHeader id='guidetomensbootsheader'>
             <h1>Guide To Men's Boots (7 Types of Boots For Every Man)</h1>
-                <h4>By Fikayomi</h4>
+            <h4>By Fikayomi</h4>
             </PostHeader>
             <PostBody>
                 <p>The boot should be in every man's collection of footwear. It is a great footwear that perfectly blends function and aesthetics. A good pair of boot adds a "cool" rugged factor to any outfit. Think of a man wearing a suit with regular Oxfords, now think of that man in the same suit but replace the Oxfords with a pair of boots.</p>

@@ -234,8 +234,13 @@
     background-image: url(../images/BlackFridayHeader.webp);
 }
 
+#appearmajestic {
+    background-image: url(../images/MajesticHeader.webp);
+}
 
-
+#guidetomensboots{
+    background-image: url(../images/BootsHeader.webp);
+}
 
 
 /* POST HEADERS */

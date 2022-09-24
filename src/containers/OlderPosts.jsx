@@ -8,6 +8,24 @@ const OlderPosts = () => {
             <hr className='ThickLine'/>
             <h2>OLDER POSTS</h2>
             <div className='OlderPostsItemContainer'>
+                <a href='/guidetomensboots'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='guidetomensboots'></div>
+                        <h3>Guide To Men's Boots (7 Types of Boots For Every Man)</h3>
+                        <p>This article should give you information so you know the options of boots available and what boot will suit your personal style and lifestyle.</p>
+                        <h5>By Fikayomi</h5>
+                    </OlderPostsItem>
+                </a>
+
+                <a href='/appearmajestic'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='appearmajestic'></div>
+                        <h3>7 Formal Accessories To Make You Appear Majestic</h3>
+                        <p>One of the ways by which you can look your best in a suit is to add one or two accessories that elevate your style and break up the monotony of your office attire.</p>\
+                        <h5>By Stephen</h5>
+                    </OlderPostsItem>
+                </a>
+
                 <a href='/nineaccessories'>
                     <OlderPostsItem>
                         <div className='OlderPostsItemImage' id='nineaccessories'></div>
