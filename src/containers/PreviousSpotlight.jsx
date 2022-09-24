@@ -2,11 +2,11 @@ import '../css/Reads.css';
 
 const PreviousSpotlight = () => {
     return(
-        <a href='/appearmajestic'>
+        <a href='/guideonbusinesscasuals'>
             <div className='PreviousSpotlight'>
                 <h3>Previous Spotlight</h3>
                 <div className='PreviousSpotlightImage'></div>
-                <h4>7 Formal Accessories To Make You Appear Majestic</h4>
+                <h4>The Complete Guide on Business Casuals for the Modern Man</h4>
             </div>
         </a>
     )
