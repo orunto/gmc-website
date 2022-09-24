@@ -7,15 +7,15 @@ const RelatedReads = () => {
             <h3>Related</h3>
             <div className='RelatedReadsItemContainer'>
                 <RelatedReadsItem>
-                    <div className='RelatedReadsItemImage' id='howtowearasuit'>
-                        <a href='/howtowearasuit'>How to wear a suit (6 suit rules every man must follow)</a>
+                    <div className='RelatedReadsItemImage' id='howtocleanyoursneakers'>
+                        <a href='/howtocleanyoursneakers'>How to clean your sneakers (The ultimate guide to sneaker care)</a>
                     </div>
-                    <a href='/howtowearasuit'>How to wear a suit (6 suit rules every man must follow)</a>
+                    <a href='/howtowearasuit'>How to clean your sneakers (The ultimate guide to sneaker care)</a>
                 </RelatedReadsItem>
 
                 <RelatedReadsItem>
-                    <a href='/buildingaversatilewardrobe'><div className='RelatedReadsItemImage' id='buildingaversatile'></div></a>
-                    <a href='/buildingaversatilewardrobe'>Building a versatile and stylish men's wardrobe (Men's style essentials).</a>
+                <div className='RelatedReadsItemImage' id='skincaretips'><a href='/skincaretips'></a></div>
+                    <a href='/skincaretips'>Skin Care Tips For Men (Best Skin Care Routine For Men)</a>
                 </RelatedReadsItem>
             </div>
         </div>
