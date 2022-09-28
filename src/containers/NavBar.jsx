@@ -72,7 +72,7 @@ const NavBar = () => {
                     </ul>
                 </ul>
                 <li><a href='https://www.gentlemenscrib.com/company'>Company</a></li>
-                <li>Support</li>
+                <li><a href='https://www.gentlemenscrib.com/support'>Support</a></li>
                 <li><a href='https://reads.gentlemenscrib.com'>Reads</a></li>
             </ul>
 
