@@ -16,12 +16,12 @@ const MobileApp = () => {
                 <div className='MobileAppExperience'>
                     <h3>Experience the Crib</h3>
                     <h2>Style At Your Fingertips</h2>
-                    <a href=''><Button>Learn More</Button></a>
+                    <a href='#scrollto'><Button>Learn More</Button></a>
                 </div>
 
                 <div className='HomePageDisplay'></div>
 
-                <div className='MobileAppBuzz'>
+                <div className='MobileAppBuzz' >
                     <h3>Accesible style options</h3>
                     <h3>Built for you. Just for you.</h3>
                 </div>
@@ -31,10 +31,10 @@ const MobileApp = () => {
                 <div className='AppPitchImage' id="stylecalendar"></div>
 
                 <div className='AppPitchDescription'>
-                    <h3>Style Calendar</h3>
+                    <h3 id='scrollto'>Style Calendar</h3>
                     <p>Stay classy by using  our AI models to plan your daily outfits.</p>
                     <p>Let it learn how best to work for you with edits, app searches and correspondence with our in house stylists.</p>
-                    <p>Style has never been easier</p>
+                    <p >Style has never been easier</p>
                 </div>
             </div>
 
