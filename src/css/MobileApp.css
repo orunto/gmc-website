@@ -1,0 +1,90 @@
+.MobileApp {
+    color: #18191F;
+}
+
+.MobileApp nav ul li {
+    color: #18191F;
+}
+
+.MobileApp #logoblack {
+    display: block;
+}
+
+.MobileApp #logowhite {
+    display: none;
+}
+
+
+.MobileAppHeader {
+    width: calc(100% - 140px);
+    height: calc(100vh - 140px);
+    display: flex;
+    /* gap: 109px; */
+    justify-content: space-between;
+    padding: 140px 70px 0 70px;
+    overflow: hidden;
+    /* align-items: flex-end; */
+}
+
+.MobileAppHeader h2 {
+    text-align: left;
+}
+
+.MobileAppExperience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 326px;
+    margin-bottom: 67px;
+    align-self: flex-end;
+}
+
+
+.MobileAppBuzz {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 160px);
+    width: max-content;
+}
+
+.MobileAppBuzz h3 {
+    width: 100%;
+}
+.HomePageDisplay {
+    width: 431px;
+    height: 100%;
+    background-image: url(../images/HomePageDisplay.webp);
+}
+.AppPitch {
+    display: flex;
+    width: calc(100% - 140px);
+    margin: 100px auto;
+    gap: 50px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.AppPitchImage {
+    background-color: transparent;
+    width: 500px;
+    height: 1000px;
+}
+#stylecalendar {
+    background-image: url(../images/StyleCalendar.webp);
+}
+#googleforstyle{
+    background-image: url(../images/GoogleForStyle.webp);
+}
+#meetcreators{
+    background-image: url(../images/MeetCreators.webp);
+}
+#itemsforsale{
+    background-image: url(../images/ItemsForSale.webp);
+}
+.AppPitchDescription {
+    display: flex;
+    gap: 30px;
+    width: 750px;
+    flex-direction: column;
+}
