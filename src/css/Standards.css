@@ -167,7 +167,7 @@
 }
 
 .SkinCare {
-    height: 100vh;
+    height: 805px;
     overflow: hidden;
 }
 .SkinCare .StandardHeader {
@@ -189,6 +189,10 @@
     margin-right: auto;
 }
 
+.SkinCare .Button {
+    margin-left: auto;
+    margin-left: auto;
+}
 .Support nav ul li {
     color: #18191F;
 }
