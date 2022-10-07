@@ -8,6 +8,15 @@ const OlderPosts = () => {
             <hr className='ThickLine'/>
             <h2>OLDER POSTS</h2>
             <div className='OlderPostsItemContainer'>
+                <a href='/guideonbusinesscasuals'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='guideonbusinesscasuals'></div>
+                        <h3>The Complete Guide on Business Casuals for the Modern Man</h3>
+                        <p>In simple terms, Business Casuals are outfits you wear to work that are considered less formal than the traditional business wears but still give a businesslike impression. Reasons, why business Casuals are gaining more acceptance today, are...</p>
+                        <h5>By Stephen</h5>
+                    </OlderPostsItem>
+                </a>
+                
                 <a href='/guidetomensboots'>
                     <OlderPostsItem>
                         <div className='OlderPostsItemImage' id='guidetomensboots'></div>

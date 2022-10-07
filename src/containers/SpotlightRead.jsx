@@ -8,10 +8,8 @@ const SpotlightRead = () => {
             <div className='SpotlightReadInfo'>
                 <h3>Spotlight Read</h3>
                  
-                <h2>How To Care For Your Clothes - 
-                    <br/>
-                    A Basic Guide to Clothing Maintenance</h2>
-                <Button><a href='/howtocareforyourclothes'>Read More</a></Button>
+                <h2>Skincare Products Every Man Should Have</h2>
+                <Button><a href='/skincareproducts'>Read More</a></Button>
             </div>
             <PreviousSpotlight/>
             <RelatedReads/>

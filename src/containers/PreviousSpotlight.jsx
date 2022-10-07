@@ -6,7 +6,7 @@ const PreviousSpotlight = () => {
             <div className='PreviousSpotlight'>
                 <h3>Previous Spotlight</h3>
                 <div className='PreviousSpotlightImage'></div>
-                <h4>The Complete Guide on Business Casuals for the Modern Man</h4>
+                <h4>How To Care for Your Clothes - A Basic Guide To Clothing Maintenances</h4>
             </div>
         </a>
     )
