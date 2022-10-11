@@ -14,6 +14,7 @@ export { default as GuideToMensBoots } from './reads/GuideToMensBoots';
 export { default as HowToCareForYourClothes } from './reads/HowToCareForYourClothes';
 export { default as GuideOnBusinessCasuals } from './reads/GuideOnBusinessCasuals';
 export { default as SkinCareProducts } from './reads/SkinCareProducts';
+export { default as ClothingItemsToElevateYourWardrobe } from './reads/ClothingItemsToElevateYourWardrobe';
 
 export { default as StarterPacks } from './StarterPacks';
 export { default as SkinCare } from './SkinCare';
