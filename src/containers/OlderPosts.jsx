@@ -8,6 +8,15 @@ const OlderPosts = () => {
             <hr className='ThickLine'/>
             <h2>OLDER POSTS</h2>
             <div className='OlderPostsItemContainer'>
+                <a href='/skincareproducts'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='skincareproducts'></div>
+                        <h3>Skincare products every man should have</h3>
+                        <p>This article will be talking about the products that you can use to improve your skin health and how to apply them.</p>
+                        <h5>By Stephen</h5>
+                    </OlderPostsItem>
+                </a>
+
                 <a href='/guideonbusinesscasuals'>
                     <OlderPostsItem>
                         <div className='OlderPostsItemImage' id='guideonbusinesscasuals'></div>
@@ -16,7 +25,7 @@ const OlderPosts = () => {
                         <h5>By Stephen</h5>
                     </OlderPostsItem>
                 </a>
-                
+
                 <a href='/guidetomensboots'>
                     <OlderPostsItem>
                         <div className='OlderPostsItemImage' id='guidetomensboots'></div>
