@@ -7,11 +7,11 @@ const ClothingItemsToElevateYourWardrobe = () => {
     return(
         <div>
             <Helmet>
-                <title>10 Clothing Items to Elevate Your Wardrobe for Work </title>
+                <title>10 Clothing Items to Elevate Your Wardrobe for Work</title>
             </Helmet>
             <NavBar/>
             <PostHeader id='ClothingItemsToElevateYourWardrobeHeader'>
-                <h1>10 Clothing Items to Elevate Your Wardrobe for Work </h1>
+                <h1>10 Clothing Items to Elevate Your Wardrobe for Work</h1>
                 <h4>By Stephen</h4>
             </PostHeader>
             <PostBody>
