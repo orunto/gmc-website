@@ -1,7 +1,7 @@
 .SpotlightRead {
     width: 100%;
     height: calc(100vh + 100px);
-    background-image: linear-gradient(0deg, rgba(24, 25, 31, 0.6), rgba(24, 25, 31, 0.6)), url(../images/ClothingItemsToElevateYourWardrobeHeader.webp);
+    background-image: linear-gradient(0deg, rgba(24, 25, 31, 0.6), rgba(24, 25, 31, 0.6)), url(../images/GuideToFragarancesHeader.webp);
     /* background-image: url(../images/howtocareforyourclothesheader.webp); */
     background-size: cover;
     background-position: center;
@@ -526,6 +526,9 @@
 
 
 /* Guide to fragrance */
+#GuideToFragrancesHeader{
+    background-image: linear-gradient(0deg, rgba(24, 25, 31, 0.6), rgba(24, 25, 31, 0.6)), url(../images/GuideToFragarancesHeader.webp);
+}
 #typesoffragrances{
     background-image: url(../images/typesoffragrances.webp);
 }

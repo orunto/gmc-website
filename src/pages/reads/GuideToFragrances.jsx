@@ -10,7 +10,7 @@ const GuideToFragrances = () => {
                 <title>Complete Men's Guide To Fragrances - How To Select A Cologne/Perfume</title>
             </Helmet>
             <NavBar/>
-            <PostHeader id='GuideToFragarancesHeader'>
+            <PostHeader id='GuideToFragrancesHeader'>
                 <h1>Complete Men's Guide To Fragrances - How To Select A Cologne/Perfume</h1>
                 <h4>By Fikayomi</h4>
             </PostHeader>
