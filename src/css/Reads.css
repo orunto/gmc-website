@@ -513,11 +513,30 @@
 }
 #waistcoats {
     background-image: url(../images/waistcoats.webp);
+    background-color: white;
+}
+#whiteshirts{
+    background-image: url(../images/whiteshirts.webp);
 }
 
 /* Skincare products */
 #skincaregranny {
     background-image: url(../images/Untitled.webp);
+}
+
+
+/* Guide to fragrance */
+#typesoffragrances{
+    background-image: url(../images/typesoffragrances.webp);
+}
+#therightfragrance{
+    background-image: url(../images/therightfragrance.webp);
+}
+#applyfragrance{
+    background-image: url(../images/applyfragrance.webp);
+}
+#fragrancetips{
+    background-image: url(../images/fragrancetips.webp);
 }
 @media (max-width: 1000px) {
     .SpotlightRead {
