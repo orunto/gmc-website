@@ -13,7 +13,7 @@ const OlderPosts = () => {
                         <div className='OlderPostsItemImage' id='skincareproducts'></div>
                         <h3>Skincare products every man should have</h3>
                         <p>This article will be talking about the products that you can use to improve your skin health and how to apply them.</p>
-                        <h5>By Stephen</h5>
+                        <h5>By Fortune</h5>
                     </OlderPostsItem>
                 </a>
 

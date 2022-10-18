@@ -12,7 +12,7 @@ const SkinCareProducts = () => {
             <NavBar/>
             <PostHeader id='skincareproductsheader'>
                 <h1>Skincare products every man should have</h1>
-                <h4>By Fikayomi</h4>
+                <h4>By Fortune</h4>
             </PostHeader>
             <PostBody>
                 <p>This could be a long write so get comfortable.</p>
