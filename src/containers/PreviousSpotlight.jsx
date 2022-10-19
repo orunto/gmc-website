@@ -2,11 +2,11 @@ import '../css/Reads.css';
 
 const PreviousSpotlight = () => {
     return(
-        <a href='/skincareproducts'>
+        <a href='/guidetofragrances'>
             <div className='PreviousSpotlight'>
                 <h3>Previous Spotlight</h3>
                 <div className='PreviousSpotlightImage'></div>
-                <h4>10 Clothing Items to Elevate Your Wardrobe for Work </h4>
+                <h4>Complete Men's Guide To Fragrances - How To Select A Cologne/Perfume</h4>
             </div>
         </a>
     )
