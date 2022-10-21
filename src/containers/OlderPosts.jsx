@@ -8,12 +8,21 @@ const OlderPosts = () => {
             <hr className='ThickLine'/>
             <h2>OLDER POSTS</h2>
             <div className='OlderPostsItemContainer'>
+            <a href='/guidetofragrances'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='guidetofragrances'></div>
+                        <h3>Complete Men's Guide To Fragrances - How To Select A Cologne/Perfume</h3>
+                        <p>In this article, you will learn the essentials about fragrances, the different types, how to apply fragrances correctly and many more.</p>
+                        <h5>By Fikayomi</h5>
+                    </OlderPostsItem>
+                </a>
+
                 <a href='/clothingitemstoelevateyourwardrobe'>
                     <OlderPostsItem>
                         <div className='OlderPostsItemImage' id='clothingitemstoelevateyourwardrobe'></div>
                         <h3>10 Clothing Items to Elevate Your Wardrobe for Work </h3>
-                        <p>TGentlemen's Crib is here to take you through a discovery of ten outfits to take your busiest days in effortless style.</p>
-                        <h5>By Fortune</h5>
+                        <p>The Gentlemen's Crib is here to take you through a discovery of ten outfits to take your busiest days in effortless style.</p>
+                        <h5>By Stephen</h5>
                     </OlderPostsItem>
                 </a>
 
