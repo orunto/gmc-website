@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { AppearMajestic, BlackFriday, BuildingaVersatileWardrobe, ClothingItemsToElevateYourWardrobe, ColourToYourOutfit, Community, Company, FiveAmazingCasualOutfits, GuideOnBusinessCasuals, GuideToFragrances, GuideToMensBoots, Home, HowToCareForYourClothes, HowToCleanYourSneakers, HowToWearASuit, MobileApp, NineAccessories, PrivacyPolicy, Reads, SkinCare, SkinCareProducts, SkinCareTips, StarterPacks, Support, TermsOfService } from './pages';
+import { AppearMajestic, BlackFriday, BuildingaVersatileWardrobe, ClothingItemsToElevateYourWardrobe, ColourToYourOutfit, Community, Company, FiveAmazingCasualOutfits, GuideOnBusinessCasuals, GuideToFragrances, GuideToMensBoots, Home, HowToCareForYourClothes, HowToCleanYourSneakers, HowToWearASuit, MobileApp, NineAccessories, PrivacyPolicy, Reads, SkinCare, SkinCareProducts, SkinCareTips, StarterPacks, Support, TermsOfService, TipsForThrifting } from './pages';
 import { FiveOutfitMistakes } from './pages';
 import './App.css';
 
@@ -25,6 +25,7 @@ function App() {
           <Route path='/clothingitemstoelevateyourwardrobe' element={<ClothingItemsToElevateYourWardrobe/>} />
           <Route path='/guidetofragrances' element={<GuideToFragrances/>} />
           <Route path='/colourtoyouroutfit' element={<ColourToYourOutfit/>} />
+          <Route path='/tipsforthrifting' element={<TipsForThrifting/>} />
         </Routes>
       </Router>
     );

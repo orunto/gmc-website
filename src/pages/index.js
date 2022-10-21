@@ -17,6 +17,7 @@ export { default as SkinCareProducts } from './reads/SkinCareProducts';
 export { default as ClothingItemsToElevateYourWardrobe } from './reads/ClothingItemsToElevateYourWardrobe';
 export { default as GuideToFragrances } from './reads/GuideToFragrances';
 export { default as ColourToYourOutfit } from './reads/ColourToYourOutfit';
+export { default as TipsForThrifting } from './reads/TipsForThrifting';
 
 export { default as StarterPacks } from './StarterPacks';
 export { default as SkinCare } from './SkinCare';
