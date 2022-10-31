@@ -18,6 +18,8 @@ export { default as ClothingItemsToElevateYourWardrobe } from './reads/ClothingI
 export { default as GuideToFragrances } from './reads/GuideToFragrances';
 export { default as ColourToYourOutfit } from './reads/ColourToYourOutfit';
 export { default as TipsForThrifting } from './reads/TipsForThrifting';
+export { default as PickingDateOutfits } from './reads/PickingDateOutfits';
+
 
 export { default as StarterPacks } from './StarterPacks';
 export { default as SkinCare } from './SkinCare';
@@ -28,4 +30,5 @@ export { default as Support } from './Support';
 export { default as PrivacyPolicy } from './PrivacyPolicy';
 export { default as TermsOfService } from './TermsOfService';
 export { default as Company } from './Company';
+
 
