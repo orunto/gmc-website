@@ -20,9 +20,9 @@ const Products = () => {
             <ProductSummary>
                 <div className='SummaryPhotoRight' id="fashionitems"></div>
                 <div className='SummaryDescription'>
-                    <h3>Find Fashion Items</h3>
+                    <h3>Find a store</h3>
                     <div className='SummaryPhotoRight' id="fashionitems"></div>
-                    <p>From our own in-house store or by connecting you to fashion retailers with the best prices and quality, Gentlemen’s Crib helps members of our community to ensure that they are buying the right products at the right prices from the right places. All items are crib-insured (if you don’t like what you get, just return it, no questions asked.)</p>
+                    <p>By connnecting you to the best fashion retailers for you,Gentlemen’s Crib helps members of our community to ensure that they are buying the right products at the right prices from the right places. All items are crib-insured (if you don’t like what you get, just return it, no questions asked.)</p>
                     <a href='https://wa.link/exlcp6'><Button>Shop Now</Button></a>
                 </div>
             </ProductSummary>
