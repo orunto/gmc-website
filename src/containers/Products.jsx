@@ -23,7 +23,7 @@ const Products = () => {
                     <h3>Find Fashion Items</h3>
                     <div className='SummaryPhotoRight' id="fashionitems"></div>
                     <p>From our own in-house store or by connecting you to fashion retailers with the best prices and quality, Gentlemen’s Crib helps members of our community to ensure that they are buying the right products at the right prices from the right places. All items are crib-insured (if you don’t like what you get, just return it, no questions asked.)</p>
-                    <Button>Shop Now</Button>
+                    <a href='https://wa.link/exlcp6'><Button>Shop Now</Button></a>
                 </div>
             </ProductSummary>
 
@@ -52,7 +52,7 @@ const Products = () => {
                     <h3>Find a Creator</h3>
                     <div className='SummaryPhoto' id="creators"></div>
                     <p>Do you need a bespoke outfit? You’re looking for vetted tailors to help you make that shoe or sew that agbada, suit, shirt, senator wear, sandals, bags. We have created a list of trusted local fashion designers and creators for you to get your outfits from. All our recommendations are crib-insured™ (if you don’t like what you get, just return it)</p>
-                    <Button>See creators</Button>
+                    <a href='https://wa.link/exlcp6'><Button>See creators</Button></a>
                 </div>
                 <div className='SummaryPhoto' id="creators"></div>
             </ProductSummary>
