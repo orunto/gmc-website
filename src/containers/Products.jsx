@@ -42,7 +42,7 @@ const Products = () => {
                 <div className='SummaryDescription'>
                     <h3>Starter Packs</h3>
                     <div className='SummaryPhotoRight' id="starterpacks"></div>
-                    <p>Need to start a new wardrobe? Or do you just want to buy fashion items at once and not worry about your wardrobe for the next three months? We have developed a pack to help you solve your problems, buy everything you would need for the next three months and save as much as N100,000. Buy your own wardrobe starter pack today for just N170,000. All items are crib-insured (if you don’t like what you get, just return it, no questions asked.)</p>
+                    <p>Need to start a new wardrobe? Or do you just want to buy fashion items at once and not worry about your wardrobe for the next three months? We have developed a pack to help you solve your problems, buy everything you would need for the next three months and save as much as N100,000. Buy your own wardrobe starter pack today for just N300,000. All items are crib-insured (if you don’t like what you get, just return it, no questions asked.)</p>
                     <Button>View starter packs</Button>
                 </div>
             </ProductSummary>
