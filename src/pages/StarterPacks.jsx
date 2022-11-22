@@ -15,7 +15,7 @@ const StarterPacks = () => {
             <div className='StandardHeader'>
                 <h1>Wardrobe Starter Packs</h1>
                 <h4>We have curated special packs of fashion items.</h4>
-                <a href="https://shop.gentlemenscrib.com/collections/starter-packs"><Button>Buy Now</Button></a>
+                <a target="_blank" noreferrer href="https://shop.gentlemenscrib.com/collections/starter-packs"><Button>Buy Now</Button></a>
             </div>
 
             <div className='Products' id='starterpackproducts'>

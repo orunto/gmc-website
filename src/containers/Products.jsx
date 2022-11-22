@@ -1,7 +1,7 @@
 import '../css/Home.css';
 
 import { ProductSummary } from '../containers';
-import { Button } from '../components';
+import { Button } from '../components'
 
 const Products = () => {
     return(
@@ -32,7 +32,7 @@ const Products = () => {
                     <h3>Get dressed for your events</h3>
                     <div className='SummaryPhoto' id="dressed"></div>
                     <p>Do you have a big event coming up that you need help with getting dressed for? Your graduation, your wedding, a big speech, a party, a photoshoot. Any help you need, we can connect you with the best and most affordable stylists in Nigeria to help you out.</p>
-                    <Button>Talk to a Stylist</Button>
+                    <a href='https://wa.link/aqm395'><Button>Talk to a Stylist</Button></a>
                 </div>
                 <div className='SummaryPhoto' id="dressed"></div>
             </ProductSummary>
@@ -43,7 +43,8 @@ const Products = () => {
                     <h3>Starter Packs</h3>
                     <div className='SummaryPhotoRight' id="starterpacks"></div>
                     <p>Need to start a new wardrobe? Or do you just want to buy fashion items at once and not worry about your wardrobe for the next three months? We have developed a pack to help you solve your problems, buy everything you would need for the next three months and save as much as N100,000. Buy your own wardrobe starter pack today for just N300,000. All items are crib-insured (if you don’t like what you get, just return it, no questions asked.)</p>
-                    <Button>View starter packs</Button>
+                    
+                    <a target="_blank" noreferrer href="https://shop.gentlemenscrib.com/collections/starter-packs"><Button>View starter packs</Button></a>
                 </div>
             </ProductSummary>
 
