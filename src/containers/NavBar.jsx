@@ -33,11 +33,13 @@ function Fold () {
 // FOR WHEN I ADD IN THE PRODUCTS DROPDOWN
 function ProductDrop () {   
     const nav = document.querySelector("nav");
+    const formen = document.querySelector(".ForMen")
     // const productdropdown = document.querySelector("productdropdown");
     const productsubpages = document.querySelector("#productsubpages");
     // const cancel = document.querySelector("#cancel");
 
     nav.style.height = "580px";
+    // nav.style.background = "black"
     productsubpages.style.display = "flex";
     // cancel.style.display = "block";
 }
@@ -67,7 +69,7 @@ const NavBar = () => {
                     <ul id='productsubpages'  onMouseLeave={ProductFold}>
                         <a onClick={ProductFold} href='#findastore'><li>Find a Store Close to You</li></a>
                         <a onClick={ProductFold} href='#findacreator'><li>Find a Local Creator</li></a>
-                        <a onClick={ProductFold} href='https://www.gentlemenscrib.com/starterpacks'><li>Starter Packs</li></a>
+                        <a onClick={ProductFold} href='https://shop.gentlemenscrib.com/collections/starter-packs'><li>Starter Packs</li></a>
                         <a onClick={ProductFold} href='https://www.gentlemenscrib.com/community'><li>Community</li></a>
                         <a onClick={ProductFold} href='https://www.gentlemenscrib.com/mobileapp'><li>Mobile App</li></a>
                         <a onClick={ProductFold} href='https://www.gentlemenscrib.com/skincare'><li>Skin Care</li></a>
