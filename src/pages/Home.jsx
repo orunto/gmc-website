@@ -13,10 +13,10 @@ const Home = () => {
             <Socials/>
             <OurApp/>
             <Footer/>
-            <div id="quickaction">
+            {/* <div id="quickaction">
                 <a href="#findastore"><Button>Find a Store Close to You</Button></a>
                 <a href="#findacreator"><Button>Find a Local Creator</Button></a>
-            </div>
+            </div> */}
         </div>
     )
 }
