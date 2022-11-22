@@ -65,6 +65,8 @@ const NavBar = () => {
                 <ul>
                     <li onMouseEnter={ProductDrop} onClick={ProductDrop}>Products <ProductDropdown/></li>
                     <ul id='productsubpages'  onMouseLeave={ProductFold}>
+                        <a onClick={ProductFold} href='#findastore'><li>Find a Store Close to You</li></a>
+                        <a onClick={ProductFold} href='#findacreator'><li>Find a Local Creator</li></a>
                         <a onClick={ProductFold} href='https://www.gentlemenscrib.com/starterpacks'><li>Starter Packs</li></a>
                         <a onClick={ProductFold} href='https://www.gentlemenscrib.com/community'><li>Community</li></a>
                         <a onClick={ProductFold} href='https://www.gentlemenscrib.com/mobileapp'><li>Mobile App</li></a>
