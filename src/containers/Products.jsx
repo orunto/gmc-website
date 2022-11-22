@@ -7,7 +7,7 @@ const Products = () => {
     return(
         <div className='Products'>
             <h2>Our Products</h2>
-            <ProductSummary>
+            <ProductSummary id="findastore">
                 <div className='SummaryDescription'>
                     <h3>Learn fashion and stay up to date</h3>
                     <div className='SummaryPhoto' id="learnfashion"></div>
@@ -48,7 +48,7 @@ const Products = () => {
                 </div>
             </ProductSummary>
 
-            <ProductSummary>
+            <ProductSummary id="findacreator">
                 <div className='SummaryDescription'>
                     <h3>Find a Creator</h3>
                     <div className='SummaryPhoto' id="creators"></div>

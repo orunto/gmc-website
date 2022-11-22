@@ -1,5 +1,13 @@
 /* FOR MEN SECTION */
 
+#quickaction {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .ForMen {
     margin: 0;
     width: 100vw;
@@ -316,5 +324,20 @@
     .OurApp {
         width: calc(100% - 60px);
         padding: 100px 30px;
+    }
+
+
+    #quickaction {
+        position: fixed;
+        bottom: 50px;
+        right: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #quickaction .Button {
+        font-size: 12px;
+        padding: 9px 18px;
     }
 }
