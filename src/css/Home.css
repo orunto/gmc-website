@@ -2,12 +2,18 @@
 
 #quickaction {
     position: fixed;
-    bottom: 100px;
+    bottom: 50px;
     right: 50px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
+#quickaction .Button {
+    font-size: 15px;
+    padding: 15px 32px;
+}
+
 .ForMen {
     margin: 0;
     width: 100vw;
