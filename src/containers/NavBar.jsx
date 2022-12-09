@@ -32,22 +32,22 @@ function Fold () {
 
 // FOR WHEN I ADD IN THE PRODUCTS DROPDOWN
 function ProductDrop () {   
-    const nav = document.querySelector("nav");
+    const nav = document.querySelector("nav")
     const formen = document.querySelector(".ForMen")
-    // const productdropdown = document.querySelector("productdropdown");
-    const productsubpages = document.querySelector("#productsubpages");
-    // const cancel = document.querySelector("#cancel");
+    const productsubpages = document.querySelector("#productsubpages")
+    // const productdropdown = document.querySelector("productdropdown")
+    // const cancel = document.querySelector("#cancel")
 
     nav.style.height = "580px";
-    // nav.style.background = "black"
     productsubpages.style.display = "flex";
+    // nav.style.background = "black"
     // cancel.style.display = "block";
 }
 
 function ProductFold () {
     const nav = document.querySelector("nav");
-    // const productdropdown = document.querySelector("productdropdown");
     const productsubpages = document.querySelector("#productsubpages");
+    // const productdropdown = document.querySelector("productdropdown");
 
     nav.style.height = "380px";
     productsubpages.style.display = "none";
