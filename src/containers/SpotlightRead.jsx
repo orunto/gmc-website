@@ -9,7 +9,7 @@ const SpotlightRead = () => {
                 <h3>Spotlight Read</h3>
                  
                 <h2>Essential gym items for men, fashion and accesories</h2>
-                <Button><a href='/essentialgymitems'>Read More</a></Button>
+                <Button><a href='/essential-gym-items'>Read More</a></Button>
             </div>
             <PreviousSpotlight/>
             <RelatedReads/>

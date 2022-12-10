@@ -27,7 +27,7 @@ function App() {
           <Route path='/colourtoyouroutfit' element={<ColourToYourOutfit/>} />
           <Route path='/tipsforthrifting' element={<TipsForThrifting/>} />
           <Route path='/pickingdateoutfits' element={<PickingDateOutfits/>} />
-          <Route path='/essentialgymitems' element={<EssentialGymItems/>} />
+          <Route path='/essential-gym-items' element={<EssentialGymItems/>} />
         </Routes>
       </Router>
     );
