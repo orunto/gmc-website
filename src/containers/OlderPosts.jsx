@@ -8,7 +8,25 @@ const OlderPosts = () => {
             <hr className='ThickLine'/>
             <h2>OLDER POSTS</h2>
             <div className='OlderPostsItemContainer'>
-            <a href='/guidetofragrances'>
+                <a href='/tipsforthrifting'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='tipforthrifting'></div>
+                        <h3>Guide To Thrift Shopping In Nigeria (5 Tips For Thrifting)</h3>
+                        <p>In this article, you will learn why you should consider thrift shopping (if you don't already) and some tips to make your thrifting trips more pleasant and end in some wonderful purchases.</p>
+                        <h5>By Fikayomi</h5>
+                    </OlderPostsItem>
+                </a>
+
+                <a href='/colourtoyouroutfit'>
+                    <OlderPostsItem>
+                        <div className='OlderPostsItemImage' id='colourtoyouroutfit'></div>
+                        <h3>How To Add Colour To Your Outfit Like A Gentleman</h3>
+                        <p>If figuring out how to add colours to your clothing styles in the right manner is an issue for you, Gentlemen's Crib is here to guide you through. To successfully match outfits of different colours, there are three steps Gentlemen's Crib recommends</p>
+                        <h5>By Stephen</h5>
+                    </OlderPostsItem>
+                </a>
+
+                <a href='/guidetofragrances'>
                     <OlderPostsItem>
                         <div className='OlderPostsItemImage' id='guidetofragrances'></div>
                         <h3>Complete Men's Guide To Fragrances - How To Select A Cologne/Perfume</h3>
