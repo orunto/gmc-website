@@ -264,7 +264,10 @@
     background-image: url(../images/TipsForThriftingHeader.webp);
 }
 #pickingdateoutfits{
-    background-image:  url(../images/howtocareforyourclothesheader.webp);
+    background-image: url(../images/howtocareforyourclothesheader.webp);
+}
+#essentialgymitem{
+    background-image: url(../images/EssentialGymItemsHeader.webp);
 }
 /* POST HEADERS */
 #nineaccessoriesheader {
@@ -328,6 +331,9 @@
 #pickingdateoutfitsheader{
     background-image: linear-gradient(0deg, rgba(24, 25, 31, 0.4), rgba(24, 25, 31, 0.4)), url(../images/PickingDateOutfitsHeader.webp);
 }
+#EssentialGymItemsHeader{
+    background-image: linear-gradient(0deg, rgba(24, 25, 31, 0.4), rgba(24, 25, 31, 0.4)), url(../images/EssentialGymItemsHeader.webp);
+}
 
 
 
@@ -385,6 +391,13 @@
 }
 
 .PostBody ul {
+    font-size: 18px;
+    font-family: 'Sora';
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.PostBody ol {
     font-size: 18px;
     font-family: 'Sora';
     font-weight: 300;
@@ -735,6 +748,11 @@
     .PostBody ul {
         font-size: 15px;
     }
+
+    .PostBody ol {
+        font-size: 15px;
+    }
+
     .PostPhotoWrapContainer {
         display: block;
         width: calc(100%);

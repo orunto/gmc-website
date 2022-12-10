@@ -19,6 +19,8 @@ export { default as GuideToFragrances } from './reads/GuideToFragrances';
 export { default as ColourToYourOutfit } from './reads/ColourToYourOutfit';
 export { default as TipsForThrifting } from './reads/TipsForThrifting';
 export { default as PickingDateOutfits } from './reads/PickingDateOutfits';
+export { default as EssentialGymItems } from './reads/EssentialGymItems';
+
 
 
 export { default as StarterPacks } from './StarterPacks';
